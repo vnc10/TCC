@@ -1,4 +1,4 @@
-public class VerifiyPrimeNumber {
+public class VerifyPrimeNumber {
     public static int verify(int number) {
         int i, m = 0, flag = 0;
         int n = number;
