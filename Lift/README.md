@@ -1,10 +1,11 @@
 Class Lift, ela representa um elevador em código;
 
-Para instanciar pode ser feito lift (numero do andar mais alto) ou 
-lift (numero do andar mais alto, numero total de passageiros)
+Para instanciar a classe utiliza-se lift(highestFloor) ou 
+lift(highestFloor, maxRiders) onde highestFloor é um numero inteiro para o valor do andar mais alto e maxRiders
+é um numero inteiro para o total de pessoas que o elevador pode carregar.
 
 
-Possui os seguintes métodos:
+A classe possui os seguintes métodos:
 
 - getTopFloor(): retorna o numero do ultimo andar;
 - getCurrentFloor(): retorna o numero do andar atual;
