@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Fila Circular.iml" filepath="$PROJECT_DIR$/Fila Circular.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista Circular.iml" filepath="$PROJECT_DIR$/Lista Circular.iml" />
     </modules>
   </component>
 </project>
