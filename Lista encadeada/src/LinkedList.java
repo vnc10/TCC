@@ -10,8 +10,13 @@ public class LinkedList {
         return length;
     }
 
+    public boolean isEmpty() {
+        return length == 0;
+    }
 
-    // Adds an element to the end of the list
+
+    // Adiciona um elemento no fim da lista
+
     public void add(Object data) {
 
         Node node = new Node(data);
@@ -24,7 +29,7 @@ public class LinkedList {
     }
 
 
-    // Obtains an element by index
+    // Obtem um elemento por indice
     public Object get(int index) {
 
         if (head.getNext() == null || index >= length) {
@@ -44,7 +49,7 @@ public class LinkedList {
     }
 
 
-    // Returns the index of the element in the list
+    // Retorna o índice do elemento na lista
     public int indexOf(Object data) {
         Node obj = head;
         for (int i = 0; i < length; i++) {
@@ -54,11 +59,10 @@ public class LinkedList {
             }
         }
         return -1;
-        //throw new Exception("Data not found");
     }
 
 
-    // Removes an element from the list
+    // Remove um elemento da lista
     public boolean remove(Object data) {
 
         if (head.getNext() == null) {
@@ -80,6 +84,7 @@ public class LinkedList {
 
         return false;
     }
+
 
     private class Node {
 
