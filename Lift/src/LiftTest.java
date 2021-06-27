@@ -1,10 +1,9 @@
 import org.junit.Test;
 
-import static junit.framework.TestCase.assertTrue;
-import static org.junit.Assert.*;
+import static junit.framework.TestCase.*;
+import static org.junit.Assert.assertNotEquals;
 
-public class TestLift {
-    // covered:34, killed: 5, points: 89,
+public class LiftTest {
     @Test(timeout = 4000)
     public void testAssertEqualTopFloor() throws Throwable {
         int topFloor = 3;
@@ -52,5 +51,4 @@ public class TestLift {
         Lift lift = new Lift(10, 5);
         assertNotEquals(4, lift.getCapacity());
     }
-
 }
