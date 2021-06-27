@@ -8,7 +8,7 @@ public class Queue<T> {
     }
 
     /**
-     * Remove an element from the end of the queue
+     * Remove um elemento do fim da fila
      */
     public T dequeue() {
         if (isEmpty()) {
@@ -23,7 +23,7 @@ public class Queue<T> {
     }
 
     /**
-     * Insert an element at the beginning of the queue
+     * Inseri um elemento no começo da fila
      */
     public void enqueue(T item) {
         Node oldback = back;
@@ -37,7 +37,17 @@ public class Queue<T> {
     }
 
     /**
-     * Check whether the queue is empty or not
+     * Retorna o primeiro elemento da fila
+     */
+    public T head() {
+        if (isEmpty()) {
+            return null;
+        }
+        return font.item;
+    }
+
+    /**
+     * Verifica se a fila está vazia
      */
     public boolean isEmpty() {
         return font == null;
