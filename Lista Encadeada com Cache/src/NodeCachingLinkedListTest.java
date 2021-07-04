@@ -18,4 +18,11 @@ public class NodeCachingLinkedListTest {
         int aux = node.getFirst();
         assertEquals(4, aux);
     }
+    @Test(timeout = 4000)
+    public void testSetMaximumCacheSize() throws Throwable {
+        NodeCaching node = new NodeCaching();
+        node.SetMaximumCacheSize(5);
+        assertEquals(5, node.GetMaximumCacheSize());
+    }
+
 }
