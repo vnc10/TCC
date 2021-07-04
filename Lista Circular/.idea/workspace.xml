@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc0490c2-8ab1-4814-bd4a-f0b8fbbdd7fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Fila Circular/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fila Circular/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fila Circular/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fila Circular/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fila Circular/Fila Circular.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircularLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CircularLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircularLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1uXZYjBUUuaE1lYi6nd3gjnQ2Cw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,33 +38,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
-  <component name="RunManager" selected="JUnit.CircularLinkedListTest.testIsNotEmpty">
+  <component name="RunManager" selected="JUnit.CircularLinkedListTest.testPrint">
     <configuration name="CircularLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lista Circular" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CircularLinkedList" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CircularLinkedListTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CircularLinkedListTest.testGetHead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lista Circular" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CircularLinkedListTest" />
-      <option name="METHOD_NAME" value="testGetHead" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CircularLinkedListTest.testGetTail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lista Circular" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CircularLinkedListTest" />
-      <option name="METHOD_NAME" value="testGetTail" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,13 +77,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CircularLinkedListTest.testPrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lista Circular" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CircularLinkedListTest" />
+      <option name="METHOD_NAME" value="testPrint" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircularLinkedListTest.testRemoveANode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lista Circular" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CircularLinkedListTest" />
+      <option name="METHOD_NAME" value="testRemoveANode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CircularLinkedListTest" />
+      <item itemvalue="JUnit.CircularLinkedListTest.testIsEmpty" />
+      <item itemvalue="JUnit.CircularLinkedListTest.testIsNotEmpty" />
+      <item itemvalue="JUnit.CircularLinkedListTest.testRemoveANode" />
+      <item itemvalue="JUnit.CircularLinkedListTest.testPrint" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CircularLinkedListTest.testPrint" />
+        <item itemvalue="JUnit.CircularLinkedListTest.testRemoveANode" />
+        <item itemvalue="JUnit.CircularLinkedListTest" />
         <item itemvalue="JUnit.CircularLinkedListTest.testIsNotEmpty" />
         <item itemvalue="JUnit.CircularLinkedListTest.testIsEmpty" />
-        <item itemvalue="JUnit.CircularLinkedListTest" />
-        <item itemvalue="JUnit.CircularLinkedListTest.testGetTail" />
-        <item itemvalue="JUnit.CircularLinkedListTest.testGetHead" />
       </list>
     </recent_temporary>
   </component>

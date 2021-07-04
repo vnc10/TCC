@@ -83,7 +83,7 @@ public class CircularLinkedList {
         return false;
     }
 
-    public void print() {
+    public boolean print() {
         Node currentNode = head;
 
         if (head != null) {
@@ -92,6 +92,7 @@ public class CircularLinkedList {
                 currentNode = currentNode.nextNode;
             } while (currentNode != head);
         }
+        return true;
     }
 
 }
