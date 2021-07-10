@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bubblesort" />
+        <module name="lista-encadeada-cache" />
+        <module name="lista-circular" />
+        <module name="TCC" />
+        <module name="algoritmo-simples-string" />
+        <module name="pilha" />
+        <module name="fila" />
+        <module name="lista-encadeada" />
+        <module name="lift" />
+        <module name="fila-circular" />
+        <module name="prime-number" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="algoritmo-simples-string" target="11" />
+      <module name="bubblesort" target="11" />
+      <module name="fila" target="11" />
+      <module name="fila-circular" target="11" />
+      <module name="lift" target="11" />
+      <module name="lista-circular" target="11" />
+      <module name="lista-encadeada" target="11" />
+      <module name="lista-encadeada-cache" target="11" />
+      <module name="pilha" target="11" />
+      <module name="prime-number" target="11" />
+      <module name="TCC" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
