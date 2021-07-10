@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fc0490c2-8ab1-4814-bd4a-f0b8fbbdd7fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircularLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CircularLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircularLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
-  <component name="RunManager" selected="JUnit.CircularLinkedListTest.testPrint">
+  <component name="RunManager" selected="JUnit.CircularLinkedListTest">
     <configuration name="CircularLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lista Circular" />
       <extension name="coverage">
@@ -106,9 +104,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CircularLinkedListTest" />
         <item itemvalue="JUnit.CircularLinkedListTest.testPrint" />
         <item itemvalue="JUnit.CircularLinkedListTest.testRemoveANode" />
-        <item itemvalue="JUnit.CircularLinkedListTest" />
         <item itemvalue="JUnit.CircularLinkedListTest.testIsNotEmpty" />
         <item itemvalue="JUnit.CircularLinkedListTest.testIsEmpty" />
       </list>
@@ -136,5 +134,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Lista_Circular$CircularLinkedListTest.ic" NAME="CircularLinkedListTest Coverage Results" MODIFIED="1625943446659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>CircularLinkedList</FILTER>
+    </SUITE>
   </component>
 </project>

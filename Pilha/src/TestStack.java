@@ -18,23 +18,6 @@ public class TestStack {
     }
 
     @Test(timeout = 4000)
-    public void testPushValue() throws Throwable {
-        Stack stack = new Stack();
-        Integer value = 1;
-        stack.push(value);
-        stack.push(value);
-        stack.push(value);
-        stack.push(value);
-        stack.push(value);
-        stack.push(value);
-        stack.push(value);
-        stack.push(value);
-        stack.push(value);
-        stack.push(value);
-
-    }
-
-    @Test(timeout = 4000)
     public void testSetCapacity() throws Throwable {
         Stack<Integer> stack = new Stack<Integer>();
         stack.setCapacity(20);

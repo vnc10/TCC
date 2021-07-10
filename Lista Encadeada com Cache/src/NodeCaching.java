@@ -14,8 +14,5 @@ public class NodeCaching extends NodeCachingLinkedList<Integer> {
         this.setMaximumCacheSize(maximumCacheSize);
     }
 
-    public void CreateNode(int value){
-        this.createNode(value);
-    }
 
 }
