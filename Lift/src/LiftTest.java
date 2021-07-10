@@ -51,4 +51,27 @@ public class LiftTest {
         Lift lift = new Lift(10, 5);
         assertNotEquals(4, lift.getCapacity());
     }
+    @Test(timeout = 4000)
+    public void testGoDown() throws Throwable {
+        Lift l = new Lift(2, 2);
+        l.goUp();
+        l.goUp();
+        l.goDown();
+        assertEquals(1, l.getCurrentFloor());
+    }
+    @Test(timeout = 4000)
+    public void testCallUp() throws Throwable {
+        Lift l = new Lift(10, 4);
+        l.goUp();
+        l.call(2);
+        assertEquals(2, l.getCurrentFloor());
+    }
+    @Test(timeout = 4000)
+    public void testCallDown() throws Throwable {
+        Lift l = new Lift(10, 4);
+        l.goUp();
+        l.goUp();
+        l.call(1);
+        assertEquals(1, l.getCurrentFloor());
+    }
 }

@@ -22,10 +22,4 @@ public class BubbleSortTest {
         bubble.ordena();
         assertArrayEquals(new int[]{42}, array);
     }
-    @Test(timeout = 4000)
-    public void testShouldDoNothingWithEmptyArray() throws Throwable {
-        int[] array = {};
-        BubbleSort bubble = new BubbleSort(array);
-        bubble.ordena();
-    }
 }
