@@ -19,10 +19,7 @@ public class VerifyPrimeNumber {
                     return 0;
                 }
             }
-            if (flag == 0) {
-                return 1;
-            }
+            return 1;
         }
-        return -1;
     }
 }

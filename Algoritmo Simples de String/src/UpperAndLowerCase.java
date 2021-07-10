@@ -28,9 +28,9 @@ public class UpperAndLowerCase {
     public String ToLowerCase() {
         String novaPalavra = "";
         List<Integer> listNumber = convertToNumber();
-        for (int i = 0; i < listNumber.size(); i++) {
+        for (Integer integer : listNumber) {
             for (int j = 0; j < this.minuscula.length(); j++) {
-                if (listNumber.get(i) == j) {
+                if (integer == j) {
                     char Minuscula = minuscula.charAt(j);
                     novaPalavra = novaPalavra + Minuscula;
                 }
@@ -42,9 +42,9 @@ public class UpperAndLowerCase {
     public String ToUpperCase() {
         String novaPalavra = "";
         List<Integer> listNumber = convertToNumber();
-        for (int i = 0; i < listNumber.size(); i++) {
+        for (Integer integer : listNumber) {
             for (int j = 0; j < this.maiscula.length(); j++) {
-                if (listNumber.get(i) == j) {
+                if (integer == j) {
                     char Maiscula = maiscula.charAt(j);
                     novaPalavra = novaPalavra + Maiscula;
                 }

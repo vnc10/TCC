@@ -22,11 +22,4 @@ public class BubbleSort {
             }
         }
     }
-
-    @Override
-    public String toString() {
-        return "BubbleSort{" +
-                "arr=" + Arrays.toString(arr) +
-                '}';
-    }
 }
