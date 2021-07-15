@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ab2b36e-bce8-421f-ad43-422e19a3abf4" name="Default Changelist" comment="" />
+    <list default="true" id="4ab2b36e-bce8-421f-ad43-422e19a3abf4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algoritmo-simples-string/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo-simples-string/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubblesort/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bubblesort/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila-circular/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fila-circular/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fila/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lift/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lift/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-circular/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lista-circular/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/lista-encadeada-cache.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/lista-encadeada-cache.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pilha/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pilha/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prime-number/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/prime-number/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Algoritmo Simples de String" />
@@ -38,7 +57,18 @@
       <recent name="$PROJECT_DIR$/Algoritmo Simples" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UpperAndLowerCaseTest">
+  <component name="RunManager" selected="JUnit.TestStack">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="mainBubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mainBubble" />
       <module name="TCC" />
@@ -46,12 +76,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
+    <configuration name="NodeCachingLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista-encadeada-cache" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NodeCachingLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pilha" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestStack" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,6 +105,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestStack" />
+        <item itemvalue="JUnit.NodeCachingLinkedListTest" />
         <item itemvalue="JUnit.UpperAndLowerCaseTest" />
         <item itemvalue="Application.mainBubble" />
       </list>

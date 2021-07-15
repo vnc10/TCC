@@ -51,20 +51,16 @@
     </dependency>
   </dependencies>
   <modules>
-	  <!--
-		<module>algoritmo-simples-string</module>
-		<module>bubblesort</module>
-		<module>fila</module>
-		<module>fila-circular</module>
-		<module>lift</module>
-		<module>lista-circular</module>
-		  <module>lista-encadeada</module>
-	-->
-		  <module>lista-encadeada-cache</module>
-	<!--
-		<module>pilha</module>
-		<module>prime-number</module>
-	-->
+      <module>algoritmo-simples-string</module>
+      <module>bubblesort</module>
+      <module>fila</module>
+      <module>fila-circular</module>
+      <module>lift</module>
+      <module>lista-circular</module>
+      <module>lista-encadeada</module>
+      <module>lista-encadeada-cache</module>
+      <module>pilha</module>
+      <module>prime-number</module>
 </modules>
 </project>
 

@@ -9,7 +9,6 @@
         <module name="bubblesort" />
         <module name="lista-encadeada-cache" />
         <module name="lista-circular" />
-        <module name="TCC" />
         <module name="algoritmo-simples-string" />
         <module name="pilha" />
         <module name="fila" />
