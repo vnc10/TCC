@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4ab2b36e-bce8-421f-ad43-422e19a3abf4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pilha/src/main/java/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/pilha/src/main/java/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pilha/src/test/java/TestStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/pilha/src/test/java/TestStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila-circular/src/main/java/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/fila-circular/src/main/java/CircularQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila-circular/src/test/java/CircularQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/fila-circular/src/test/java/CircularQueueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1uBEcDTppG1C9h6qYdm6boFL990" />
   <component name="ProjectViewState">
@@ -46,7 +54,7 @@
       <recent name="$PROJECT_DIR$/Algoritmo Simples" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestStack.test">
+  <component name="RunManager" selected="JUnit.CircularQueueTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -58,21 +66,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiftTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lift" />
+    <configuration name="CircularQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fila-circular" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LiftTest" />
+      <option name="MAIN_CLASS_NAME" value="CircularQueueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircularQueueTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fila-circular" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CircularQueueTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pilha" />
+    <configuration name="CircularQueueTest.testAddElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fila-circular" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestStack" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="CircularQueueTest" />
+      <option name="METHOD_NAME" value="testAddElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircularQueueTest.testEmptyDeQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fila-circular" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CircularQueueTest" />
+      <option name="METHOD_NAME" value="testEmptyDeQueue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,33 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStack.testExceptFromPush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pilha" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestStack" />
-      <option name="METHOD_NAME" value="testExceptFromPush" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerifyPrimeNumberTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="prime-number" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VerifyPrimeNumberTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CircularQueueTest" />
+        <item itemvalue="JUnit.CircularQueueTest.test" />
+        <item itemvalue="JUnit.CircularQueueTest.testEmptyDeQueue" />
+        <item itemvalue="JUnit.CircularQueueTest.testAddElement" />
         <item itemvalue="JUnit.TestStack.test" />
-        <item itemvalue="JUnit.TestStack.testExceptFromPush" />
-        <item itemvalue="JUnit.TestStack" />
-        <item itemvalue="JUnit.VerifyPrimeNumberTest.test" />
-        <item itemvalue="JUnit.LiftTest.test" />
       </list>
     </recent_temporary>
   </component>
