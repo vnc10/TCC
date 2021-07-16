@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4ab2b36e-bce8-421f-ad43-422e19a3abf4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fila/src/test/java/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/fila/src/test/java/QueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/main/java/NodeCaching.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/NodeCachingLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/NodeCachingLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lift/src/test/java/LiftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lift/src/test/java/LiftTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
       <recent name="$PROJECT_DIR$/Algoritmo Simples" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QueueTest.test">
+  <component name="RunManager" selected="JUnit.LiftTest.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -59,11 +57,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fila" />
+    <configuration name="LiftTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lift" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueueTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="LiftTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LiftTest.testCallUpFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lift" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LiftTest" />
+      <option name="METHOD_NAME" value="testCallUpFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LiftTest.testFlorMaiorQueTopFloor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lift" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LiftTest" />
+      <option name="METHOD_NAME" value="testFlorMaiorQueTopFloor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LiftTest.testGoDownFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lift" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LiftTest" />
+      <option name="METHOD_NAME" value="testGoDownFalse" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,42 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.testDequeueEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fila" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueueTest" />
-      <option name="METHOD_NAME" value="testDequeueEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest.testIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fila" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueueTest" />
-      <option name="METHOD_NAME" value="testIsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pilha" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestStack" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LiftTest.test" />
+        <item itemvalue="JUnit.LiftTest.testFlorMaiorQueTopFloor" />
+        <item itemvalue="JUnit.LiftTest.testGoDownFalse" />
+        <item itemvalue="JUnit.LiftTest.testCallUpFalse" />
         <item itemvalue="JUnit.QueueTest.test" />
-        <item itemvalue="JUnit.QueueTest" />
-        <item itemvalue="JUnit.QueueTest.testIsEmpty" />
-        <item itemvalue="JUnit.QueueTest.testDequeueEmpty" />
-        <item itemvalue="JUnit.TestStack" />
       </list>
     </recent_temporary>
   </component>

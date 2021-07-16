@@ -74,4 +74,24 @@ public class LiftTest {
         l.call(1);
         assertEquals(1, l.getCurrentFloor());
     }
+    @Test(timeout = 4000)
+    public void testCallUpFalse() throws Throwable {
+        Lift l = new Lift(1);
+        l.goUp();
+        l.goUp();
+        assertEquals(1, l.getCurrentFloor());
+    }
+    @Test(timeout = 4000)
+    public void testGoDownFalse() throws Throwable {
+        Lift l = new Lift(1);
+        l.goDown();
+        assertEquals(0, l.getCurrentFloor());
+    }
+    @Test(timeout = 4000)
+    public void testWhenCallANegativeNumber() throws Throwable {
+        Lift l = new Lift(1);
+        l.call(-3);
+        assertEquals(0, l.getCurrentFloor());
+    }
+
 }
