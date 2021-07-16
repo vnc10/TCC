@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4ab2b36e-bce8-421f-ad43-422e19a3abf4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista-circular/src/main/java/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-circular/src/main/java/CircularLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista-circular/src/test/java/CircularLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-circular/src/test/java/CircularLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada/src/main/java/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada/src/main/java/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada/src/test/java/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada/src/test/java/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <recent name="$PROJECT_DIR$/Algoritmo Simples" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CircularLinkedListTest.aas">
+  <component name="RunManager" selected="JUnit.LinkedListTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -66,50 +66,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircularLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista-circular" />
+    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista-encadeada" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CircularLinkedListTest" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircularLinkedListTest.aaa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista-circular" />
+    <configuration name="LinkedListTest.aaa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista-encadeada" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CircularLinkedListTest" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListTest" />
       <option name="METHOD_NAME" value="aaa" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircularLinkedListTest.aas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista-circular" />
+    <configuration name="LinkedListTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista-encadeada" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CircularLinkedListTest" />
-      <option name="METHOD_NAME" value="aas" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircularLinkedListTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista-circular" />
+    <configuration name="LinkedListTest.testWhenGetAElementIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista-encadeada" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CircularLinkedListTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListTest" />
+      <option name="METHOD_NAME" value="testWhenGetAElementIsNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircularLinkedListTest.testPrintWhenHeadIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista-circular" />
+    <configuration name="LinkedListTest.teste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista-encadeada" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CircularLinkedListTest" />
-      <option name="METHOD_NAME" value="testPrintWhenHeadIsNull" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListTest" />
+      <option name="METHOD_NAME" value="teste" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CircularLinkedListTest.aas" />
-        <item itemvalue="JUnit.CircularLinkedListTest.aaa" />
-        <item itemvalue="JUnit.CircularLinkedListTest" />
-        <item itemvalue="JUnit.CircularLinkedListTest.test2" />
-        <item itemvalue="JUnit.CircularLinkedListTest.testPrintWhenHeadIsNull" />
+        <item itemvalue="JUnit.LinkedListTest" />
+        <item itemvalue="JUnit.LinkedListTest.aaa" />
+        <item itemvalue="JUnit.LinkedListTest.test" />
+        <item itemvalue="JUnit.LinkedListTest.teste" />
+        <item itemvalue="JUnit.LinkedListTest.testWhenGetAElementIsNull" />
       </list>
     </recent_temporary>
   </component>
