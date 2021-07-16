@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Stack<T> {
     private int capacity = 10;
     private int pointer = 0;
@@ -20,10 +18,12 @@ public class Stack<T> {
         objects[pointer++] = o;
     }
 
-    public T pop() {
-        if (pointer <= 0)
+    public boolean pop() {
+        if (pointer <= 0) {
             throw new IllegalArgumentException("Stack empty");
-        return objects[--pointer];
+        }
+        --pointer;
+        return true;
     }
 
     public boolean isEmpty() {

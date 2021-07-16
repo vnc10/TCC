@@ -1,8 +1,7 @@
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertTrue;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.*;
 
 public class TestStack {
     @Test(timeout = 4000)
@@ -32,11 +31,27 @@ public class TestStack {
     }
 
     @Test(timeout = 4000)
-    public void test4() throws Throwable {
-        Stack<String> stack = new Stack<String>();
-        String string3 = "test";
-        stack.push(string3);
-        assertEquals(string3, stack.pop());
+    public void testExceptFromPop() {
+        Stack<Integer> stack = new Stack<Integer>();
+        Exception exception = assertThrows(IllegalArgumentException.class, stack::pop);
+        assertEquals("Stack empty", exception.getMessage());
+    }
+
+    @Test(timeout = 4000)
+    public void testExceptFromPush() {
+        Stack<Integer> stack = new Stack<Integer>();
+        stack.setCapacity(0);
+        Exception exception = assertThrows(IllegalArgumentException.class, () -> stack.push(2));
+        assertEquals("Stack exceeded capacity!", exception.getMessage());
+    }
+
+    @Test(timeout = 4000)
+    public void testPop(){
+        Stack<Integer> stack = new Stack<Integer>();
+        stack.push(2);
+        stack.push(1);
+        assertTrue(stack.pop());
+
     }
 
 }

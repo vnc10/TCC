@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4ab2b36e-bce8-421f-ad43-422e19a3abf4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prime-number/src/test/java/VerifyPrimeNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/prime-number/src/test/java/VerifyPrimeNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pilha/src/main/java/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/pilha/src/main/java/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pilha/src/test/java/TestStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/pilha/src/test/java/TestStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
       <recent name="$PROJECT_DIR$/Algoritmo Simples" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VerifyPrimeNumberTest.test">
+  <component name="RunManager" selected="JUnit.TestStack.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -67,31 +68,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiftTest.testCallUpFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lift" />
+    <configuration name="TestStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pilha" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LiftTest" />
-      <option name="METHOD_NAME" value="testCallUpFalse" />
+      <option name="MAIN_CLASS_NAME" value="TestStack" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStack.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pilha" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestStack" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiftTest.testFlorMaiorQueTopFloor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lift" />
+    <configuration name="TestStack.testExceptFromPush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pilha" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LiftTest" />
-      <option name="METHOD_NAME" value="testFlorMaiorQueTopFloor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LiftTest.testGoDownFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lift" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LiftTest" />
-      <option name="METHOD_NAME" value="testGoDownFalse" />
+      <option name="MAIN_CLASS_NAME" value="TestStack" />
+      <option name="METHOD_NAME" value="testExceptFromPush" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestStack.test" />
+        <item itemvalue="JUnit.TestStack.testExceptFromPush" />
+        <item itemvalue="JUnit.TestStack" />
         <item itemvalue="JUnit.VerifyPrimeNumberTest.test" />
         <item itemvalue="JUnit.LiftTest.test" />
-        <item itemvalue="JUnit.LiftTest.testFlorMaiorQueTopFloor" />
-        <item itemvalue="JUnit.LiftTest.testGoDownFalse" />
-        <item itemvalue="JUnit.LiftTest.testCallUpFalse" />
       </list>
     </recent_temporary>
   </component>
