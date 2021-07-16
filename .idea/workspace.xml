@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4ab2b36e-bce8-421f-ad43-422e19a3abf4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lift/src/test/java/LiftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lift/src/test/java/LiftTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prime-number/src/test/java/VerifyPrimeNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/prime-number/src/test/java/VerifyPrimeNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
       <recent name="$PROJECT_DIR$/Algoritmo Simples" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LiftTest.test">
+  <component name="RunManager" selected="JUnit.VerifyPrimeNumberTest.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -97,10 +97,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fila" />
+    <configuration name="VerifyPrimeNumberTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prime-number" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueueTest" />
+      <option name="MAIN_CLASS_NAME" value="VerifyPrimeNumberTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VerifyPrimeNumberTest.test" />
         <item itemvalue="JUnit.LiftTest.test" />
         <item itemvalue="JUnit.LiftTest.testFlorMaiorQueTopFloor" />
         <item itemvalue="JUnit.LiftTest.testGoDownFalse" />
         <item itemvalue="JUnit.LiftTest.testCallUpFalse" />
-        <item itemvalue="JUnit.QueueTest.test" />
       </list>
     </recent_temporary>
   </component>

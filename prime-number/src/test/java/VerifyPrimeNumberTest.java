@@ -17,4 +17,18 @@ public class VerifyPrimeNumberTest {
         assertEquals(0, prime.verify());
     }
 
+    @Test(timeout = 4000)
+    public void testWithABigNotPrimeNumber() throws Throwable {
+        int n = 92;
+        VerifyPrimeNumber prime = new VerifyPrimeNumber(n);
+        assertEquals(0, prime.verify());
+    }
+
+    @Test(timeout = 4000)
+    public void testWithZero() throws Throwable {
+        int n = 0;
+        VerifyPrimeNumber prime = new VerifyPrimeNumber(n);
+        assertEquals(0, prime.verify());
+    }
+
 }
