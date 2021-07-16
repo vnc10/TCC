@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4ab2b36e-bce8-421f-ad43-422e19a3abf4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fila-circular/src/main/java/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/fila-circular/src/main/java/CircularQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fila-circular/src/test/java/CircularQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/fila-circular/src/test/java/CircularQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-circular/src/main/java/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-circular/src/main/java/CircularLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-circular/src/test/java/CircularLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-circular/src/test/java/CircularLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <recent name="$PROJECT_DIR$/Algoritmo Simples" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CircularQueueTest">
+  <component name="RunManager" selected="JUnit.CircularLinkedListTest.aas">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -66,50 +66,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircularQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fila-circular" />
+    <configuration name="CircularLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista-circular" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CircularQueueTest" />
+      <option name="MAIN_CLASS_NAME" value="CircularLinkedListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircularQueueTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fila-circular" />
+    <configuration name="CircularLinkedListTest.aaa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista-circular" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CircularQueueTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="CircularLinkedListTest" />
+      <option name="METHOD_NAME" value="aaa" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircularQueueTest.testAddElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fila-circular" />
+    <configuration name="CircularLinkedListTest.aas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista-circular" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CircularQueueTest" />
-      <option name="METHOD_NAME" value="testAddElement" />
+      <option name="MAIN_CLASS_NAME" value="CircularLinkedListTest" />
+      <option name="METHOD_NAME" value="aas" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircularQueueTest.testEmptyDeQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fila-circular" />
+    <configuration name="CircularLinkedListTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista-circular" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CircularQueueTest" />
-      <option name="METHOD_NAME" value="testEmptyDeQueue" />
+      <option name="MAIN_CLASS_NAME" value="CircularLinkedListTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStack.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pilha" />
+    <configuration name="CircularLinkedListTest.testPrintWhenHeadIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista-circular" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestStack" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="CircularLinkedListTest" />
+      <option name="METHOD_NAME" value="testPrintWhenHeadIsNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CircularQueueTest" />
-        <item itemvalue="JUnit.CircularQueueTest.test" />
-        <item itemvalue="JUnit.CircularQueueTest.testEmptyDeQueue" />
-        <item itemvalue="JUnit.CircularQueueTest.testAddElement" />
-        <item itemvalue="JUnit.TestStack.test" />
+        <item itemvalue="JUnit.CircularLinkedListTest.aas" />
+        <item itemvalue="JUnit.CircularLinkedListTest.aaa" />
+        <item itemvalue="JUnit.CircularLinkedListTest" />
+        <item itemvalue="JUnit.CircularLinkedListTest.test2" />
+        <item itemvalue="JUnit.CircularLinkedListTest.testPrintWhenHeadIsNull" />
       </list>
     </recent_temporary>
   </component>

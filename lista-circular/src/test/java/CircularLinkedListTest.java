@@ -7,7 +7,9 @@ public class CircularLinkedListTest {
     public void testListHasAnElement() throws Throwable {
         CircularLinkedList cll = new CircularLinkedList();
         cll.addNode(8);
-        cll.addNode(37);
+        cll.addNode(15);
+        cll.addNode(21);
+
         assertTrue(cll.containsNode(8));
     }
 
@@ -19,7 +21,7 @@ public class CircularLinkedListTest {
     }
 
     @Test(timeout = 4000)
-    public void test() {
+    public void testHead() {
         CircularLinkedList cll = new CircularLinkedList();
         CircularLinkedList expected = new CircularLinkedList();
         expected.addNode(8);
@@ -45,6 +47,12 @@ public class CircularLinkedListTest {
         cll.addNode(4);
         assertTrue(cll.print());
 
+    }
+
+    @Test(timeout = 4000)
+    public void testPrintWhenHeadIsNull() {
+        CircularLinkedList cll = new CircularLinkedList();
+        assertTrue(cll.print());
     }
 
     @Test(timeout = 4000)
@@ -83,4 +91,49 @@ public class CircularLinkedListTest {
         assertFalse(cll.isEmpty());
 
     }
+
+    @Test(timeout = 4000)
+    public void testCurrentNodeNull() {
+        CircularLinkedList cll = new CircularLinkedList();
+        assertFalse(cll.containsNode(3));
+
+    }
+
+    @Test(timeout = 4000)
+    public void testDeleteTheOnlySingleElementInTheList() {
+        CircularLinkedList cll = new CircularLinkedList();
+        cll.addNode(3);
+        assertTrue(cll.deleteNode(3));
+
+    }
+
+    @Test(timeout = 4000)
+    public void testDeleteTheHead() {
+        CircularLinkedList cll = new CircularLinkedList();
+        cll.addNode(3);
+        cll.addNode(4);
+        cll.addNode(5);
+        assertTrue(cll.deleteNode(3));
+
+    }
+
+    @Test(timeout = 4000)
+    public void testDeleteAValueThatDoesntExist() {
+        CircularLinkedList cll = new CircularLinkedList();
+        cll.addNode(3);
+        assertFalse(cll.deleteNode(2));
+
+    }
+
+    @Test(timeout = 4000)
+    public void testContains() {
+        CircularLinkedList cll = new CircularLinkedList();
+        cll.addNode(3);
+        cll.addNode(1);
+        cll.addNode(12);
+
+        assertFalse(cll.containsNode(2));
+
+    }
+
 }

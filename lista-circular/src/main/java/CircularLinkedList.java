@@ -52,7 +52,7 @@ public class CircularLinkedList {
         }
     }
 
-    public void deleteNode(int valueToDelete) {
+    public boolean deleteNode(int valueToDelete) {
         Node currentNode = head;
         isEmpty();
         do {
@@ -70,17 +70,15 @@ public class CircularLinkedList {
                         tail = currentNode;
                     }
                 }
-                break;
+                return true;
             }
             currentNode = nextNode;
         } while (currentNode != head);
+        return false;
     }
 
     public boolean isEmpty() {
-        if (head == null) {
-            return true;
-        }
-        return false;
+        return head == null;
     }
 
     public boolean print() {
