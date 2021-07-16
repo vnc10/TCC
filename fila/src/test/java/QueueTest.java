@@ -20,7 +20,7 @@ public class QueueTest {
     public void testRemove() throws Throwable {
         Queue<Integer> queue = new Queue<Integer>();
         queue.enqueue(1);
-        assertEquals(new Integer(1), queue.dequeue());
+        assertEquals(Integer.valueOf(1), queue.dequeue());
     }
 
     @Test(timeout = 4000)
@@ -28,6 +28,26 @@ public class QueueTest {
         Queue<Integer> queue = new Queue<Integer>();
         queue.enqueue(10);
         queue.enqueue(12);
-        assertEquals(new Integer(10), queue.head());
+        assertEquals(Integer.valueOf(10), queue.head());
+    }
+
+    @Test(timeout = 4000)
+    public void testDequeueEmpty() {
+        Queue<Integer> queue = new Queue<Integer>();
+        assertNull(queue.dequeue());
+    }
+
+    @Test(timeout = 4000)
+    public void testIsEmpty() {
+        Queue<Integer> queue = new Queue<Integer>();
+        assertNull(queue.head());
+    }
+
+    @Test(timeout = 4000)
+    public void testDequeue() {
+        Queue<Integer> queue = new Queue<Integer>();
+        queue.enqueue(3);
+        queue.enqueue(5);
+        assertEquals(Integer.valueOf(3), queue.dequeue());
     }
 }

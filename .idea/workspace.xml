@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ab2b36e-bce8-421f-ad43-422e19a3abf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algoritmo-simples-string/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo-simples-string/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bubblesort/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bubblesort/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fila-circular/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fila-circular/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fila/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fila/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lift/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lift/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista-circular/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lista-circular/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/lista-encadeada-cache.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/lista-encadeada-cache.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista-encadeada/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pilha/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pilha/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prime-number/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/prime-number/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila/src/test/java/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/fila/src/test/java/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/main/java/NodeCaching.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/NodeCachingLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/NodeCachingLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Algoritmo Simples de String" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -57,7 +47,7 @@
       <recent name="$PROJECT_DIR$/Algoritmo Simples" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestStack">
+  <component name="RunManager" selected="JUnit.QueueTest.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -69,18 +59,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mainBubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mainBubble" />
-      <module name="TCC" />
+    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fila" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QueueTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeCachingLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista-encadeada-cache" />
+    <configuration name="QueueTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fila" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NodeCachingLinkedListTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="QueueTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest.testDequeueEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fila" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QueueTest" />
+      <option name="METHOD_NAME" value="testDequeueEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest.testIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fila" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QueueTest" />
+      <option name="METHOD_NAME" value="testIsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,21 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpperAndLowerCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algoritmo-simples-string" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UpperAndLowerCaseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QueueTest.test" />
+        <item itemvalue="JUnit.QueueTest" />
+        <item itemvalue="JUnit.QueueTest.testIsEmpty" />
+        <item itemvalue="JUnit.QueueTest.testDequeueEmpty" />
         <item itemvalue="JUnit.TestStack" />
-        <item itemvalue="JUnit.NodeCachingLinkedListTest" />
-        <item itemvalue="JUnit.UpperAndLowerCaseTest" />
-        <item itemvalue="Application.mainBubble" />
       </list>
     </recent_temporary>
   </component>
@@ -138,5 +143,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TCC$QueueTest_testIsEmpty.ic" NAME="QueueTest.testIsEmpty Coverage Results" MODIFIED="1626394076858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TCC$QueueTest.ic" NAME="QueueTest Coverage Results" MODIFIED="1626394086181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
