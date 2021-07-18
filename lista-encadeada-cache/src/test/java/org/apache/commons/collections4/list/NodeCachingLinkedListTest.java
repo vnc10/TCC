@@ -1,4 +1,4 @@
-/*
+package org.apache.commons.collections4.list;/*
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
  * this work for additional information regarding copyright ownership.
@@ -15,15 +15,16 @@
  * limitations under the License.
  */
 
-import java.util.Arrays;
-import java.util.LinkedList;
 
 import junit.framework.Test;
+import org.apache.commons.collections4.BulkTest;
+
+import java.util.Arrays;
+import java.util.LinkedList;
 
 
 /**
  * Test class for NodeCachingLinkedList, a performance optimised LinkedList.
- *
  */
 public class NodeCachingLinkedListTest<E> extends AbstractLinkedListTest<E> {
 
@@ -53,16 +54,16 @@ public class NodeCachingLinkedListTest<E> extends AbstractLinkedListTest<E> {
         resetEmpty();
         final NodeCachingLinkedList<E> list = getCollection();
 
-        list.addAll(Arrays.asList((E[]) new String[] { "1", "2", "3", "4" }));
+        list.addAll(Arrays.asList((E[]) new String[]{"1", "2", "3", "4"}));
         list.removeAllNodes(); // Will dump all 4 elements into cache
         list.setMaximumCacheSize(2); // shrink cache
-        list.addAll(Arrays.asList((E[]) new String[] { "1", "2", "3", "4" }));
+        list.addAll(Arrays.asList((E[]) new String[]{"1", "2", "3", "4"}));
         checkNodes();
         list.removeNode(list.getNode(0, false)); // no room in cache
         list.removeNode(list.getNode(0, false));
         list.removeNode(list.getNode(0, false));
         checkNodes();
-        list.addAll(Arrays.asList((E[]) new String[] { "1", "2", "3", "4" }));
+        list.addAll(Arrays.asList((E[]) new String[]{"1", "2", "3", "4"}));
         checkNodes();
     }
 

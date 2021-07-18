@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+package org.apache.commons.collections4;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -25,6 +25,7 @@ import java.util.List;
 
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import org.apache.commons.collections4.list.NodeCachingLinkedListTest;
 
 /**
  * A {@link TestCase} that can define both simple and bulk test methods.

@@ -14,11 +14,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-
+package org.apache.commons.collections4.list;
 import java.util.Arrays;
-import static junit.framework.TestCase.assertEquals;
-import static junit.framework.TestCase.fail;
+import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.NoSuchElementException;
+
+import org.apache.commons.collections4.list.AbstractLinkedList;
+import org.apache.commons.collections4.list.AbstractListTest;
 
 /**
  * Test case for {@link AbstractLinkedList}.

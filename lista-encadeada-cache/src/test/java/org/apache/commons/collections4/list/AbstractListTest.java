@@ -15,6 +15,10 @@
  * limitations under the License.
  */
 
+package org.apache.commons.collections4.list;
+
+import org.apache.commons.collections4.AbstractCollectionTest;
+import org.apache.commons.collections4.BulkTest;
 
 import java.io.IOException;
 import java.io.Serializable;
@@ -87,6 +91,9 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
             assertEquals("toArray should have correct element", o1, o2);
             i++;
         }
+    }
+
+    public static void assertEquals(String iterator_elements_should_be_equal, Object o1, Object o2) {
     }
 
     /**
