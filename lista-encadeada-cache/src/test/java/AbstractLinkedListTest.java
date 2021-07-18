@@ -18,6 +18,7 @@
 
 import java.util.Arrays;
 import static junit.framework.TestCase.assertEquals;
+import static junit.framework.TestCase.fail;
 
 /**
  * Test case for {@link AbstractLinkedList}.

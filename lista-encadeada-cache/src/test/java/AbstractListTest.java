@@ -15,24 +15,12 @@
  * limitations under the License.
  */
 
+
 import java.io.IOException;
 import java.io.Serializable;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.AbstractCollection;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.ConcurrentModificationException;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.NoSuchElementException;
-
-import org.apache.commons.collections4.BulkTest;
-import org.apache.commons.collections4.collection.AbstractCollectionTest;
-import org.apache.commons.collections4.iterators.AbstractListIteratorTest;
+import java.util.*;
 
 /**
  * Abstract test class for {@link java.util.List} methods and contracts.
@@ -44,33 +32,32 @@ import org.apache.commons.collections4.iterators.AbstractListIteratorTest;
  * you may still use this base set of cases.  Simply override the
  * test case (method) your {@link List} fails or override one of the
  * protected methods from AbstractCollectionTest.
- *
  */
 public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
 
     /**
      * JUnit constructor.
      *
-     * @param testName  the test class name
+     * @param testName the test class name
      */
     public AbstractListTest(final String testName) {
         super(testName);
     }
 
     /**
-     *  Returns true if the collections produced by
-     *  {@link #makeObject()} and {@link #makeFullCollection()}
-     *  support the <code>set operation.<p>
-     *  Default implementation returns true.  Override if your collection
-     *  class does not support set.
+     * Returns true if the collections produced by
+     * {@link #makeObject()} and {@link #makeFullCollection()}
+     * support the <code>set operation.<p>
+     * Default implementation returns true.  Override if your collection
+     * class does not support set.
      */
     public boolean isSetSupported() {
         return true;
     }
 
     /**
-     *  Verifies that the test list implementation matches the confirmed list
-     *  implementation.
+     * Verifies that the test list implementation matches the confirmed list
+     * implementation.
      */
     @Override
     @SuppressWarnings("unchecked")
@@ -147,7 +134,7 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     * Returns the {@link #collection} field cast to a {@link List}.
+     * Returns the  field cast to a {@link List}.
      *
      * @return the collection field as a List
      */
@@ -157,7 +144,7 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     * Returns the {@link #confirmed} field cast to a {@link List}.
+     * Returns the  field cast to a {@link List}.
      *
      * @return the confirmed field as a List
      */
@@ -167,8 +154,8 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     *  Tests bounds checking for {@link List#add(int, Object)} on an
-     *  empty list.
+     * Tests bounds checking for {@link List#add(int, Object)} on an
+     * empty list.
      */
     public void testListAddByIndexBoundsChecking() {
         if (!isAddSupported()) {
@@ -212,8 +199,8 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     *  Tests bounds checking for {@link List#add(int, Object)} on a
-     *  full list.
+     * Tests bounds checking for {@link List#add(int, Object)} on a
+     * full list.
      */
     public void testListAddByIndexBoundsChecking2() {
         if (!isAddSupported()) {
@@ -257,7 +244,7 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     *  Tests {@link List#add(int,Object)}.
+     * Tests {@link List#add(int, Object)}.
      */
     public void testListAddByIndex() {
         if (!isAddSupported()) {
@@ -276,7 +263,7 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     *  Tests {@link List#equals(Object)}.
+     * Tests {@link List#equals(Object)}.
      */
     public void testListEquals() {
         resetEmpty();
@@ -348,7 +335,7 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     *  Tests {@link List#hashCode()}.
+     * Tests {@link List#hashCode()}.
      */
     public void testListHashCode() {
         resetEmpty();
@@ -365,7 +352,7 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     *  Tests {@link List#get(int)}.
+     * Tests {@link List#get(int)}.
      */
     public void testListGetByIndex() {
         resetFull();
@@ -378,8 +365,8 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     *  Tests bounds checking for {@link List#get(int)} on an
-     *  empty list.
+     * Tests bounds checking for {@link List#get(int)} on an
+     * empty list.
      */
     public void testListGetByIndexBoundsChecking() {
         final List<E> list = makeObject();
@@ -421,8 +408,8 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     *  Tests bounds checking for {@link List#get(int)} on a
-     *  full list.
+     * Tests bounds checking for {@link List#get(int)} on a
+     * full list.
      */
     public void testListGetByIndexBoundsChecking2() {
         final List<E> list = makeFullCollection();
@@ -457,7 +444,7 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     *  Tests {@link List#indexOf}.
+     * Tests {@link List#indexOf}.
      */
     public void testListIndexOf() {
         resetFull();
@@ -479,7 +466,7 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     *  Tests {@link List#lastIndexOf}.
+     * Tests {@link List#lastIndexOf}.
      */
     public void testListLastIndexOf() {
         resetFull();
@@ -503,8 +490,8 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     *  Tests bounds checking for {@link List#set(int,Object)} on an
-     *  empty list.
+     * Tests bounds checking for {@link List#set(int, Object)} on an
+     * empty list.
      */
     public void testListSetByIndexBoundsChecking() {
         if (!isSetSupported()) {
@@ -552,8 +539,8 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
 
 
     /**
-     *  Tests bounds checking for {@link List#set(int,Object)} on a
-     *  full list.
+     * Tests bounds checking for {@link List#set(int, Object)} on a
+     * full list.
      */
     public void testListSetByIndexBoundsChecking2() {
         if (!isSetSupported()) {
@@ -567,21 +554,21 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
             list.set(Integer.MIN_VALUE, element);
             fail("List.set should throw IndexOutOfBoundsException " +
                     "[Integer.MIN_VALUE]");
-        } catch(final IndexOutOfBoundsException e) {
+        } catch (final IndexOutOfBoundsException e) {
             // expected
         }
 
         try {
             list.set(-1, element);
             fail("List.set should throw IndexOutOfBoundsException [-1]");
-        } catch(final IndexOutOfBoundsException e) {
+        } catch (final IndexOutOfBoundsException e) {
             // expected
         }
 
         try {
             list.set(getFullElements().length, element);
             fail("List.set should throw IndexOutOfBoundsException [size]");
-        } catch(final IndexOutOfBoundsException e) {
+        } catch (final IndexOutOfBoundsException e) {
             // expected
         }
 
@@ -589,14 +576,14 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
             list.set(Integer.MAX_VALUE, element);
             fail("List.set should throw IndexOutOfBoundsException " +
                     "[Integer.MAX_VALUE]");
-        } catch(final IndexOutOfBoundsException e) {
+        } catch (final IndexOutOfBoundsException e) {
             // expected
         }
     }
 
 
     /**
-     *  Test {@link List#set(int,Object)}.
+     * Test {@link List#set(int, Object)}.
      */
     public void testListSetByIndex() {
         if (!isSetSupported()) {
@@ -617,8 +604,8 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     *  If {@link #isSetSupported()} returns false, tests that set operation
-     *  raises <Code>UnsupportedOperationException.
+     * If {@link #isSetSupported()} returns false, tests that set operation
+     * raises <Code>UnsupportedOperationException.
      */
     public void testUnsupportedSet() {
         if (isSetSupported()) {
@@ -638,8 +625,8 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     *  Tests bounds checking for {@link List#remove(int)} on an
-     *  empty list.
+     * Tests bounds checking for {@link List#remove(int)} on an
+     * empty list.
      */
     public void testListRemoveByIndexBoundsChecking() {
         if (!isRemoveSupported()) {
@@ -651,42 +638,42 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
         try {
             list.remove(Integer.MIN_VALUE);
             fail("List.remove should throw IndexOutOfBoundsException [Integer.MIN_VALUE]");
-        } catch(final IndexOutOfBoundsException e) {
+        } catch (final IndexOutOfBoundsException e) {
             // expected
         }
 
         try {
             list.remove(-1);
             fail("List.remove should throw IndexOutOfBoundsException [-1]");
-        } catch(final IndexOutOfBoundsException e) {
+        } catch (final IndexOutOfBoundsException e) {
             // expected
         }
 
         try {
             list.remove(0);
             fail("List.remove should throw IndexOutOfBoundsException [0]");
-        } catch(final IndexOutOfBoundsException e) {
+        } catch (final IndexOutOfBoundsException e) {
             // expected
         }
 
         try {
             list.remove(1);
             fail("List.remove should throw IndexOutOfBoundsException [1]");
-        } catch(final IndexOutOfBoundsException e) {
+        } catch (final IndexOutOfBoundsException e) {
             // expected
         }
 
         try {
             list.remove(Integer.MAX_VALUE);
             fail("List.remove should throw IndexOutOfBoundsException [Integer.MAX_VALUE]");
-        } catch(final IndexOutOfBoundsException e) {
+        } catch (final IndexOutOfBoundsException e) {
             // expected
         }
     }
 
     /**
-     *  Tests bounds checking for {@link List#remove(int)} on a
-     *  full list.
+     * Tests bounds checking for {@link List#remove(int)} on a
+     * full list.
      */
     public void testListRemoveByIndexBoundsChecking2() {
         if (!isRemoveSupported()) {
@@ -699,21 +686,21 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
             list.remove(Integer.MIN_VALUE);
             fail("List.remove should throw IndexOutOfBoundsException " +
                     "[Integer.MIN_VALUE]");
-        } catch(final IndexOutOfBoundsException e) {
+        } catch (final IndexOutOfBoundsException e) {
             // expected
         }
 
         try {
             list.remove(-1);
             fail("List.remove should throw IndexOutOfBoundsException [-1]");
-        } catch(final IndexOutOfBoundsException e) {
+        } catch (final IndexOutOfBoundsException e) {
             // expected
         }
 
         try {
             list.remove(getFullElements().length);
             fail("List.remove should throw IndexOutOfBoundsException [size]");
-        } catch(final IndexOutOfBoundsException e) {
+        } catch (final IndexOutOfBoundsException e) {
             // expected
         }
 
@@ -721,14 +708,14 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
             list.remove(Integer.MAX_VALUE);
             fail("List.remove should throw IndexOutOfBoundsException " +
                     "[Integer.MAX_VALUE]");
-        } catch(final IndexOutOfBoundsException e) {
+        } catch (final IndexOutOfBoundsException e) {
             // expected
         }
     }
 
 
     /**
-     *  Tests {@link List#remove(int)}.
+     * Tests {@link List#remove(int)}.
      */
     public void testListRemoveByIndex() {
         if (!isRemoveSupported()) {
@@ -746,7 +733,7 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     *  Tests the read-only bits of {@link List#listIterator()}.
+     * Tests the read-only bits of {@link List#listIterator()}.
      */
     public void testListListIterator() {
         resetFull();
@@ -755,17 +742,19 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     *  Tests the read-only bits of {@link List#listIterator(int)}.
+     * Tests the read-only bits of {@link List#listIterator(int)}.
      */
     public void testListListIteratorByIndex() {
         resetFull();
         try {
             getCollection().listIterator(-1);
-        } catch (final IndexOutOfBoundsException ex) {}
+        } catch (final IndexOutOfBoundsException ex) {
+        }
         resetFull();
         try {
             getCollection().listIterator(getCollection().size() + 1);
-        } catch (final IndexOutOfBoundsException ex) {}
+        } catch (final IndexOutOfBoundsException ex) {
+        }
         resetFull();
         for (int i = 0; i <= getConfirmed().size(); i++) {
             forwardTest(getCollection().listIterator(i), i);
@@ -899,10 +888,10 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     *  Traverses to the end of the given iterator.
+     * Traverses to the end of the given iterator.
      *
-     *  @param iter  the iterator to traverse
-     *  @param i     the starting index
+     * @param iter the iterator to traverse
+     * @param i    the starting index
      */
     private void forwardTest(final ListIterator<E> iter, int i) {
         final List<E> list = getCollection();
@@ -932,10 +921,10 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     *  Traverses to the beginning of the given iterator.
+     * Traverses to the beginning of the given iterator.
      *
-     *  @param iter  the iterator to traverse
-     *  @param i     the starting index
+     * @param iter the iterator to traverse
+     * @param i    the starting index
      */
     private void backwardTest(final ListIterator<E> iter, int i) {
         final List<E> list = getCollection();
@@ -970,8 +959,8 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
 
 
     /**
-     *  Tests the {@link ListIterator#add(Object)} method of the list
-     *  iterator.
+     * Tests the {@link ListIterator#add(Object)} method of the list
+     * iterator.
      */
     public void testListIteratorAdd() {
         if (!isAddSupported()) {
@@ -1005,8 +994,8 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     /**
-     *  Tests the {@link ListIterator#set(Object)} method of the list
-     *  iterator.
+     * Tests the {@link ListIterator#set(Object)} method of the list
+     * iterator.
      */
     public void testListIteratorSet() {
         if (!isSetSupported()) {
@@ -1060,62 +1049,62 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
      * Compare the current serialized form of the List
      * against the canonical version in SCM.
      */
-    @SuppressWarnings("unchecked")
-    public void testEmptyListCompatibility() throws IOException, ClassNotFoundException {
-        /*
-         * Create canonical objects with this code
-        List list = makeEmptyList();
-        if (!(list instanceof Serializable)) return;
-
-        writeExternalFormToDisk((Serializable) list, getCanonicalEmptyCollectionName(list));
-        */
-
-        // test to make sure the canonical form has been preserved
-        final List<E> list = makeObject();
-        if (list instanceof Serializable && !skipSerializedCanonicalTests()
-                && isTestSerialization()) {
-            final List<E> list2 = (List<E>) readExternalFormFromDisk(getCanonicalEmptyCollectionName(list));
-            assertEquals("List is empty", 0, list2.size());
-            assertEquals(list, list2);
-        }
-    }
+//    @SuppressWarnings("unchecked")
+//    public void testEmptyListCompatibility() throws IOException, ClassNotFoundException {
+//        /*
+//         * Create canonical objects with this code
+//        List list = makeEmptyList();
+//        if (!(list instanceof Serializable)) return;
+//
+//        writeExternalFormToDisk((Serializable) list, getCanonicalEmptyCollectionName(list));
+//        */
+//
+//        // test to make sure the canonical form has been preserved
+//        final List<E> list = makeObject();
+//        if (list instanceof Serializable && !skipSerializedCanonicalTests()
+//                && isTestSerialization()) {
+//            final List<E> list2 = (List<E>) readExternalFormFromDisk(getCanonicalEmptyCollectionName(list));
+//            assertEquals("List is empty", 0, list2.size());
+//            assertEquals(list, list2);
+//        }
+//    }
 
     /**
      * Compare the current serialized form of the List
      * against the canonical version in SCM.
      */
-    @SuppressWarnings("unchecked")
-    public void testFullListCompatibility() throws IOException, ClassNotFoundException {
-        /*
-         * Create canonical objects with this code
-        List list = makeFullList();
-        if (!(list instanceof Serializable)) return;
-
-        writeExternalFormToDisk((Serializable) list, getCanonicalFullCollectionName(list));
-        */
-
-        // test to make sure the canonical form has been preserved
-        final List<E> list = makeFullCollection();
-        if (list instanceof Serializable && !skipSerializedCanonicalTests() && isTestSerialization()) {
-            final List<E> list2 = (List<E>) readExternalFormFromDisk(getCanonicalFullCollectionName(list));
-            if (list2.size() == 4) {
-                // old serialized tests
-                return;
-            }
-            assertEquals("List is the right size", list.size(), list2.size());
-            assertEquals(list, list2);
-        }
-    }
+//    @SuppressWarnings("unchecked")
+//    public void testFullListCompatibility() throws IOException, ClassNotFoundException {
+//        /*
+//         * Create canonical objects with this code
+//        List list = makeFullList();
+//        if (!(list instanceof Serializable)) return;
+//
+//        writeExternalFormToDisk((Serializable) list, getCanonicalFullCollectionName(list));
+//        */
+//
+//        // test to make sure the canonical form has been preserved
+//        final List<E> list = makeFullCollection();
+//        if (list instanceof Serializable && !skipSerializedCanonicalTests() && isTestSerialization()) {
+//            final List<E> list2 = (List<E>) readExternalFormFromDisk(getCanonicalFullCollectionName(list));
+//            if (list2.size() == 4) {
+//                // old serialized tests
+//                return;
+//            }
+//            assertEquals("List is the right size", list.size(), list2.size());
+//            assertEquals(list, list2);
+//        }
+//    }
 
     /**
-     *  Returns a {@link BulkTest} for testing {@link List#subList(int,int)}.
-     *  The returned bulk test will run through every {@code TestList}
-     *  method, <i>including</i> another {@code bulkTestSubList}.
-     *  Sublists are tested until the size of the sublist is less than 10.
-     *  Each sublist is 6 elements smaller than its parent list.
-     *  (By default this means that two rounds of sublists will be tested).
-     *  The verify() method is overloaded to test that the original list is
-     *  modified when the sublist is.
+     * Returns a {@link BulkTest} for testing {@link List#subList(int, int)}.
+     * The returned bulk test will run through every {@code TestList}
+     * method, <i>including</i> another {@code bulkTestSubList}.
+     * Sublists are tested until the size of the sublist is less than 10.
+     * Each sublist is 6 elements smaller than its parent list.
+     * (By default this means that two rounds of sublists will be tested).
+     * The verify() method is overloaded to test that the original list is
+     * modified when the sublist is.
      */
     public BulkTest bulkTestSubList() {
         if (getFullElements().length - 6 < 10) {
@@ -1285,14 +1274,14 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     /**
      * Invokes the given method on the given sublist to make sure it raises
      * a {@link java.util.ConcurrentModificationException ConcurrentModificationException}.
-     *
+     * <p>
      * Unless the method happens to be the equals() method, in which case
      * the test is skipped. There seems to be a bug in
      * java.util.AbstractList.subList(int,int).equals(Object) -- it never
      * raises a ConcurrentModificationException.
      *
      * @param list the sublist to test
-     * @param m the method to invoke
+     * @param m    the method to invoke
      */
     protected void failFastMethod(final List<E> list, final Method m) {
         if (m.getName().equals("equals")) {
@@ -1332,45 +1321,45 @@ public abstract class AbstractListTest<E> extends AbstractCollectionTest<E> {
     }
 
     // -----------------------------------------------------------------------
-    public BulkTest bulkTestListIterator() {
-        return new TestListIterator();
-    }
-
-    public class TestListIterator extends AbstractListIteratorTest<E> {
-        public TestListIterator() {
-            super("TestListIterator");
-        }
-
-        @Override
-        public E addSetValue() {
-            return AbstractListTest.this.getOtherElements()[0];
-        }
-
-        @Override
-        public boolean supportsRemove() {
-            return AbstractListTest.this.isRemoveSupported();
-        }
-
-        @Override
-        public boolean supportsAdd() {
-            return AbstractListTest.this.isAddSupported();
-        }
-
-        @Override
-        public boolean supportsSet() {
-            return AbstractListTest.this.isSetSupported();
-        }
-
-        @Override
-        public ListIterator<E> makeEmptyIterator() {
-            resetEmpty();
-            return AbstractListTest.this.getCollection().listIterator();
-        }
-
-        @Override
-        public ListIterator<E> makeObject() {
-            resetFull();
-            return AbstractListTest.this.getCollection().listIterator();
-        }
-    }
+//    public BulkTest bulkTestListIterator() {
+//        return new TestListIterator();
+//    }
+//
+//    public class TestListIterator extends AbstractListIteratorTest<E> {
+//        public TestListIterator() {
+//            super("TestListIterator");
+//        }
+//
+//        @Override
+//        public E addSetValue() {
+//            return AbstractListTest.this.getOtherElements()[0];
+//        }
+//
+//        @Override
+//        public boolean supportsRemove() {
+//            return AbstractListTest.this.isRemoveSupported();
+//        }
+//
+//        @Override
+//        public boolean supportsAdd() {
+//            return AbstractListTest.this.isAddSupported();
+//        }
+//
+//        @Override
+//        public boolean supportsSet() {
+//            return AbstractListTest.this.isSetSupported();
+//        }
+//
+//        @Override
+//        public ListIterator<E> makeEmptyIterator() {
+//            resetEmpty();
+//            return AbstractListTest.this.getCollection().listIterator();
+//        }
+//
+//        @Override
+//        public ListIterator<E> makeObject() {
+//            resetFull();
+//            return AbstractListTest.this.getCollection().listIterator();
+//        }
+//    }
 }

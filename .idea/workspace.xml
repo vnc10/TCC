@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4ab2b36e-bce8-421f-ad43-422e19a3abf4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista-encadeada/src/main/java/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada/src/main/java/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista-encadeada/src/test/java/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada/src/test/java/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/lista-encadeada-cache.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/lista-encadeada-cache.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/AbstractLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/AbstractLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/AbstractListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/AbstractListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/NodeCachingLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/NodeCachingLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -43,6 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/lista-encadeada-cache/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -53,14 +58,43 @@
       <recent name="$PROJECT_DIR$/Algoritmo Simples de String/src" />
       <recent name="$PROJECT_DIR$/Algoritmo Simples" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="teste" />
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest">
+  <component name="RunManager" selected="JUnit.NodeCachingLinkedListTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AbstractListTest$BulkTestSubList and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista-encadeada-cache" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AbstractListTest" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="AbstractListTest$BulkTestSubList" />
+        <pattern testClass="NodeCachingLinkedListTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AbstractListTest$BulkTestSubList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista-encadeada-cache" />
+      <option name="PACKAGE_NAME" value="AbstractListTest" />
+      <option name="MAIN_CLASS_NAME" value="AbstractListTest$BulkTestSubList" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,36 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.aaa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista-encadeada" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LinkedListTest" />
-      <option name="METHOD_NAME" value="aaa" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista-encadeada" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LinkedListTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest.testWhenGetAElementIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista-encadeada" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LinkedListTest" />
-      <option name="METHOD_NAME" value="testWhenGetAElementIsNull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LinkedListTest.teste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista-encadeada" />
       <option name="PACKAGE_NAME" value="" />
@@ -115,13 +119,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NodeCachingLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista-encadeada-cache" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NodeCachingLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LinkedListTest" />
-        <item itemvalue="JUnit.LinkedListTest.aaa" />
-        <item itemvalue="JUnit.LinkedListTest.test" />
-        <item itemvalue="JUnit.LinkedListTest.teste" />
-        <item itemvalue="JUnit.LinkedListTest.testWhenGetAElementIsNull" />
+        <item itemvalue="JUnit.NodeCachingLinkedListTest" />
+        <item itemvalue="JUnit.NodeCachingLinkedListTest" />
+        <item itemvalue="JUnit.AbstractListTest$BulkTestSubList and 1 more" />
+        <item itemvalue="JUnit.AbstractListTest$BulkTestSubList" />
+        <item itemvalue="JUnit.NodeCachingLinkedListTest" />
       </list>
     </recent_temporary>
   </component>
