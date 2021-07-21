@@ -134,7 +134,7 @@ import org.apache.commons.collections4.list.NodeCachingLinkedListTest;
  *  interpret bulk test methods.
  *
  */
-public class BulkTest extends TestCase implements Cloneable {
+public abstract class BulkTest extends TestCase implements Cloneable {
 
     // Note:  BulkTest is Cloneable to make it easier to construct
     // BulkTest instances for simple test methods that are defined in
