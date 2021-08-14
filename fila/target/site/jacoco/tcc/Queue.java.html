@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Queue.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">fila</a> &gt; <a href="index.source.html" class="el_package">tcc</a> &gt; <span class="el_source">Queue.java</span></div><h1>Queue.java</h1><pre class="source lang-java linenums">package tcc;
+
+<span class="fc" id="L3">public class Queue&lt;T&gt; {</span>
+<span class="fc" id="L4">    Node font = null;</span>
+<span class="fc" id="L5">    Node back = null;</span>
+
+<span class="fc" id="L7">    private class Node {</span>
+        T item;
+        Node next;
+    }
+
+    /**
+     * Remove um elemento do fim da fila
+     */
+    public T dequeue() {
+<span class="fc bfc" id="L16" title="All 2 branches covered.">        if (isEmpty()) {</span>
+<span class="fc" id="L17">            return null;</span>
+        }
+<span class="fc" id="L19">        T item = font.item;</span>
+<span class="fc bfc" id="L20" title="All 2 branches covered.">        if (font == back) {</span>
+<span class="fc" id="L21">            back = back.next;</span>
+        }
+<span class="fc" id="L23">        font = font.next;</span>
+<span class="fc" id="L24">        return item;</span>
+    }
+
+    /**
+     * Inseri um elemento no começo da fila
+     */
+    public void enqueue(T item) {
+<span class="fc" id="L31">        Node oldback = back;</span>
+<span class="fc" id="L32">        back = new Node();</span>
+<span class="fc" id="L33">        back.item = item;</span>
+<span class="fc bfc" id="L34" title="All 2 branches covered.">        if (isEmpty()) {</span>
+<span class="fc" id="L35">            font = back;</span>
+        } else {
+<span class="fc" id="L37">            oldback.next = back;</span>
+        }
+<span class="fc" id="L39">    }</span>
+
+    /**
+     * Retorna o primeiro elemento da fila
+     */
+    public T head() {
+<span class="fc bfc" id="L45" title="All 2 branches covered.">        if (isEmpty()) {</span>
+<span class="fc" id="L46">            return null;</span>
+        }
+<span class="fc" id="L48">        return font.item;</span>
+    }
+
+    /**
+     * Verifica se a fila está vazia
+     */
+    public boolean isEmpty() {
+<span class="fc bfc" id="L55" title="All 2 branches covered.">        return font == null;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

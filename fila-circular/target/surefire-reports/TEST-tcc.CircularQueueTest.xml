@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="7" failures="0" name="tcc.CircularQueueTest" time="0.012" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS"/>
+    <property name="sun.boot.library.path" value="/home/vinicius/.sdkman/candidates/java/11.0.11-zulu/lib"/>
+    <property name="user.country.format" value="BR"/>
+    <property name="jdk.vendor.version" value="Zulu11.48+21-CA"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/vinicius/Downloads/TCC"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vendor.url" value="http://www.azulsystems.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.dir" value="/home/vinicius/Downloads/TCC"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.11.0-25-generic"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/vinicius"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="user.name" value="vinicius"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.home" value="/home/vinicius/.sdkman/candidates/java/11.0.11-zulu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language.format" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.vendor.version" value="Zulu11.48+21-CA"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="tcc.CircularQueueTest" name="testVerifyQueueIsEmpty" time="0.009"/>
+  <testcase classname="tcc.CircularQueueTest" name="testGetElement" time="0.001"/>
+  <testcase classname="tcc.CircularQueueTest" name="testVerifyQueueIsNotEmpty" time="0"/>
+  <testcase classname="tcc.CircularQueueTest" name="testAddElement" time="0.001"/>
+  <testcase classname="tcc.CircularQueueTest" name="testRemoveElementWhenFrontEqualRear" time="0"/>
+  <testcase classname="tcc.CircularQueueTest" name="testVerifyQueueIsFull" time="0.001"/>
+  <testcase classname="tcc.CircularQueueTest" name="testRemoveElement" time="0"/>
+</testsuite>

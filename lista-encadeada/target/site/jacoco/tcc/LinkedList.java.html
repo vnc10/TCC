@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>LinkedList.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">lista-encadeada</a> &gt; <a href="index.source.html" class="el_package">tcc</a> &gt; <span class="el_source">LinkedList.java</span></div><h1>LinkedList.java</h1><pre class="source lang-java linenums">package tcc;
+
+public class LinkedList {
+    private Node head;
+<span class="fc" id="L5">    private int length = 0;</span>
+
+<span class="fc" id="L7">    public LinkedList() {</span>
+<span class="fc" id="L8">        this.head = new Node(null);</span>
+<span class="fc" id="L9">    }</span>
+
+    public int size() {
+<span class="fc" id="L12">        return length;</span>
+    }
+
+    public boolean isEmpty() {
+<span class="fc bfc" id="L16" title="All 2 branches covered.">        return length == 0;</span>
+    }
+
+
+    // Adiciona um elemento no fim da lista
+
+    public void add(Object data) {
+
+<span class="fc" id="L24">        Node node = new Node(data);</span>
+<span class="fc" id="L25">        Node iterator = head;</span>
+<span class="fc bfc" id="L26" title="All 2 branches covered.">        while (iterator.getNext() != null) {</span>
+<span class="fc" id="L27">            iterator = iterator.getNext();</span>
+        }
+<span class="fc" id="L29">        iterator.setNext(node);</span>
+<span class="fc" id="L30">        length++;</span>
+<span class="fc" id="L31">    }</span>
+
+
+    // Obtem um elemento por indice
+    public Object get(int index) {
+
+<span class="fc bfc" id="L37" title="All 4 branches covered.">        if (head.getNext() == null || index &gt;= length) {</span>
+<span class="fc" id="L38">            return null;</span>
+        }
+
+<span class="fc" id="L41">        Node iterator = head.getNext();</span>
+<span class="fc" id="L42">        int counter = 0;</span>
+
+<span class="fc bfc" id="L44" title="All 2 branches covered.">        while (counter &lt; index) {</span>
+
+<span class="fc" id="L46">            iterator = iterator.getNext();</span>
+<span class="fc" id="L47">            counter++;</span>
+        }
+<span class="fc" id="L49">        return iterator.getData();</span>
+
+    }
+
+
+    // Retorna o índice do elemento na lista
+    public int indexOf(Object data) {
+<span class="fc" id="L56">        Node obj = head;</span>
+<span class="fc bfc" id="L57" title="All 2 branches covered.">        for (int i = 0; i &lt; length; i++) {</span>
+<span class="fc" id="L58">            obj = obj.getNext();</span>
+<span class="fc bfc" id="L59" title="All 2 branches covered.">            if (obj.getData().equals(data)) {</span>
+<span class="fc" id="L60">                return i;</span>
+            }
+        }
+<span class="fc" id="L63">        return -1;</span>
+    }
+
+
+    // Remove um elemento da lista
+    public boolean remove(Object data) {
+
+<span class="fc bfc" id="L70" title="All 2 branches covered.">        if (head.getNext() == null) {</span>
+<span class="fc" id="L71">            return false;</span>
+        }
+
+<span class="fc" id="L74">        Node iterator = head;</span>
+
+<span class="fc bfc" id="L76" title="All 2 branches covered.">        while (iterator.getNext() != null) {</span>
+
+<span class="fc bfc" id="L78" title="All 2 branches covered.">            if (iterator.getNext().getData().equals(data)) {</span>
+<span class="fc" id="L79">                iterator.setNext(iterator.getNext().getNext());</span>
+<span class="fc" id="L80">                length--;</span>
+<span class="fc" id="L81">                return true;</span>
+            }
+
+<span class="fc" id="L84">            iterator = iterator.getNext();</span>
+        }
+
+<span class="fc" id="L87">        return false;</span>
+    }
+
+
+    private class Node {
+
+        private Object data;
+        private Node next;
+
+<span class="fc" id="L96">        public Node(Object data) {</span>
+<span class="fc" id="L97">            this.data = data;</span>
+<span class="fc" id="L98">            next = null;</span>
+<span class="fc" id="L99">        }</span>
+
+        public Object getData() {
+<span class="fc" id="L102">            return data;</span>
+        }
+
+        public Node getNext() {
+<span class="fc" id="L106">            return next;</span>
+        }
+
+        public void setNext(Node next) {
+<span class="fc" id="L110">            this.next = next;</span>
+<span class="fc" id="L111">        }</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
