@@ -4,7 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ab2b36e-bce8-421f-ad43-422e19a3abf4" name="Default Changelist" comment="" />
+    <list default="true" id="4ab2b36e-bce8-421f-ad43-422e19a3abf4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_mauricioaniche_ck_0_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_30_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_csv_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_org_eclipse_jdt_core_3_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_commands_3_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_contenttype_3_7_1000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_expressions_3_7_100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_filesystem_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_jobs_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_resources_3_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_runtime_3_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_equinox_app_1_5_100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_equinox_common_3_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_equinox_preferences_3_8_200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_equinox_registry_3_10_200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_osgi_3_16_300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_text_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_26_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TCC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algoritmo-simples-string/algoritmo-simples-string.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo-simples-string/algoritmo-simples-string.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algoritmo-simples-string/src/main/java/UpperAndLowerCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo-simples-string/src/main/java/tcc/UpperAndLowerCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algoritmo-simples-string/src/test/java/UpperAndLowerCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo-simples-string/src/test/java/tcc/UpperAndLowerCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubblesort/bubblesort.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bubblesort/bubblesort.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubblesort/src/main/java/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/bubblesort/src/main/java/tcc/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubblesort/src/test/java/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bubblesort/src/test/java/tcc/BubbleSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila-circular/fila-circular.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fila-circular/fila-circular.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila-circular/src/main/java/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/fila-circular/src/main/java/tcc/CircularQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila-circular/src/test/java/CircularQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/fila-circular/src/test/java/tcc/CircularQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila/fila.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fila/fila.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila/src/main/java/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/fila/src/main/java/tcc/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila/src/test/java/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/fila/src/test/java/tcc/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lift/lift.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lift/lift.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lift/src/main/java/Lift.java" beforeDir="false" afterPath="$PROJECT_DIR$/lift/src/main/java/tcc/Lift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lift/src/test/java/LiftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lift/src/test/java/tcc/LiftTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-circular/lista-circular.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lista-circular/lista-circular.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-circular/src/main/java/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-circular/src/main/java/tcc/CircularLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-circular/src/test/java/CircularLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-circular/src/test/java/tcc/CircularLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/lista-encadeada-cache.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/lista-encadeada-cache.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada/lista-encadeada.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada/lista-encadeada.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada/src/main/java/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada/src/main/java/tcc/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada/src/test/java/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada/src/test/java/tcc/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pilha/pilha.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pilha/pilha.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prime-number/prime-number.iml" beforeDir="false" afterPath="$PROJECT_DIR$/prime-number/prime-number.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,8 +99,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/lista-encadeada-cache/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SD/UDP" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/lista-encadeada/src/test/java" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/pitest-examples/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -59,7 +118,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NodeCachingLinkedListTest">
+  <component name="RunManager" selected="JUnit.LiftTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -93,10 +152,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista-encadeada" />
+    <configuration name="LiftTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lift" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LinkedListTest" />
+      <option name="MAIN_CLASS_NAME" value="LiftTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LiftTest" />
         <item itemvalue="JUnit.NodeCachingLinkedListTest" />
         <item itemvalue="JUnit.NodeCachingLinkedListTest" />
         <item itemvalue="JUnit.AbstractListTest$BulkTestSubList and 1 more" />
         <item itemvalue="JUnit.AbstractListTest$BulkTestSubList" />
-        <item itemvalue="JUnit.NodeCachingLinkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +199,7 @@
       <option name="presentableId" value="Default" />
       <updated>1624130662397</updated>
       <workItem from="1625950618088" duration="148000" />
+      <workItem from="1628967161407" duration="6506000" />
     </task>
     <servers />
   </component>
