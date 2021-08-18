@@ -5,14 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ab2b36e-bce8-421f-ad43-422e19a3abf4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/main/java/org/apache/commons/collections4/list/AbstractLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/main/java/tcc/AbstractLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/main/java/org/apache/commons/collections4/list/NodeCachingLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/main/java/tcc/NodeCachingLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/org/apache/commons/collections4/AbstractCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc/AbstractCollectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/org/apache/commons/collections4/AbstractObjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc/AbstractObjectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/org/apache/commons/collections4/BulkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc/BulkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/org/apache/commons/collections4/list/AbstractLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc/AbstractLinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/org/apache/commons/collections4/list/AbstractListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc/AbstractListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/org/apache/commons/collections4/list/NodeCachingLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc/NodeCachingLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algoritmo-simples-string/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo-simples-string/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algoritmo-simples-string/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo-simples-string/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algoritmo-simples-string/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo-simples-string/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algoritmo-simples-string/target/surefire-reports/TEST-tcc.UpperAndLowerCaseTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo-simples-string/target/surefire-reports/TEST-tcc.UpperAndLowerCaseTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algoritmo-simples-string/target/surefire-reports/tcc.UpperAndLowerCaseTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo-simples-string/target/surefire-reports/tcc.UpperAndLowerCaseTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubblesort/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/bubblesort/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubblesort/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/bubblesort/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubblesort/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bubblesort/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubblesort/target/surefire-reports/TEST-tcc.BubbleSortTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bubblesort/target/surefire-reports/TEST-tcc.BubbleSortTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubblesort/target/surefire-reports/tcc.BubbleSortTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bubblesort/target/surefire-reports/tcc.BubbleSortTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila-circular/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/fila-circular/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila-circular/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/fila-circular/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila-circular/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fila-circular/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila-circular/target/surefire-reports/TEST-tcc.CircularQueueTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fila-circular/target/surefire-reports/TEST-tcc.CircularQueueTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila-circular/target/surefire-reports/tcc.CircularQueueTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fila-circular/target/surefire-reports/tcc.CircularQueueTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/fila/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/fila/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fila/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila/target/surefire-reports/TEST-tcc.QueueTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fila/target/surefire-reports/TEST-tcc.QueueTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila/target/surefire-reports/tcc.QueueTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fila/target/surefire-reports/tcc.QueueTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lift/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/lift/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lift/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/lift/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lift/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lift/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lift/target/surefire-reports/TEST-tcc.LiftTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lift/target/surefire-reports/TEST-tcc.LiftTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lift/target/surefire-reports/tcc.LiftTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lift/target/surefire-reports/tcc.LiftTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-circular/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/lista-circular/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-circular/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/lista-circular/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-circular/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lista-circular/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-circular/target/surefire-reports/TEST-tcc.CircularLinkedListTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lista-circular/target/surefire-reports/TEST-tcc.CircularLinkedListTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-circular/target/surefire-reports/tcc.CircularLinkedListTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lista-circular/target/surefire-reports/tcc.CircularLinkedListTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/main/java/tcc/AbstractLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/main/java/tcc/AbstractLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/main/java/tcc/NodeCachingLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/main/java/tcc/NodeCachingLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc/AbstractCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc/AbstractCollectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc/AbstractLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc/AbstractLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc/AbstractListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc/AbstractListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc/AbstractObjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc/AbstractObjectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc/BulkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc/BulkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc/NodeCachingLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc/NodeCachingLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/target/surefire-reports/TEST-tcc.NodeCachingLinkedListTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/target/surefire-reports/TEST-tcc.NodeCachingLinkedListTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada-cache/target/surefire-reports/tcc.NodeCachingLinkedListTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada-cache/target/surefire-reports/tcc.NodeCachingLinkedListTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada/target/surefire-reports/TEST-tcc.LinkedListTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada/target/surefire-reports/TEST-tcc.LinkedListTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista-encadeada/target/surefire-reports/tcc.LinkedListTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lista-encadeada/target/surefire-reports/tcc.LinkedListTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pilha/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/pilha/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pilha/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/pilha/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pilha/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pilha/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pilha/target/surefire-reports/TEST-tcc.TestStack.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pilha/target/surefire-reports/TEST-tcc.TestStack.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pilha/target/surefire-reports/tcc.TestStack.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pilha/target/surefire-reports/tcc.TestStack.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prime-number/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/prime-number/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prime-number/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/prime-number/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prime-number/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/prime-number/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prime-number/target/surefire-reports/TEST-tcc.VerifyPrimeNumberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/prime-number/target/surefire-reports/TEST-tcc.VerifyPrimeNumberTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prime-number/target/surefire-reports/tcc.VerifyPrimeNumberTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/prime-number/target/surefire-reports/tcc.VerifyPrimeNumberTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +101,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/pitest-examples/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -149,7 +200,9 @@
       <option name="presentableId" value="Default" />
       <updated>1624130662397</updated>
       <workItem from="1625950618088" duration="148000" />
-      <workItem from="1628967161407" duration="6839000" />
+      <workItem from="1628967161407" duration="7240000" />
+      <workItem from="1629069077578" duration="17000" />
+      <workItem from="1629250715640" duration="1931000" />
     </task>
     <servers />
   </component>
