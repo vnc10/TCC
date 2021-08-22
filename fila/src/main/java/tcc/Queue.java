@@ -10,7 +10,7 @@ public class Queue<T> {
     }
 
     /**
-     * Remove um elemento do fim da fila
+     * Remove um elemento no começo da fila
      */
     public T dequeue() {
         if (isEmpty()) {
@@ -25,7 +25,7 @@ public class Queue<T> {
     }
 
     /**
-     * Inseri um elemento no começo da fila
+     * Inseri um elemento no fim da fila
      */
     public void enqueue(T item) {
         Node oldback = back;
