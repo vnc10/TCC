@@ -1,8 +1,8 @@
 package tcc;
 
-public class Queue {
-    Node font = null;
-    Node back = null;
+public class Queue<T> {
+    private Node font = null;
+    private Node back = null;
 
     private static class Node {
         int item;
@@ -10,7 +10,7 @@ public class Queue {
     }
 
     /**
-     * Remove um elemento do fim da fila
+     * Remove um elemento no começo da fila
      */
     public int dequeue() {
         if (isEmpty()) {
@@ -25,7 +25,7 @@ public class Queue {
     }
 
     /**
-     * Inseri um elemento no começo da fila
+     * Inseri um elemento no fim da fila
      */
     public void enqueue(int item) {
         Node oldback = back;
