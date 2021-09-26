@@ -14,6 +14,7 @@
         <module name="pilha" />
         <module name="fila" />
         <module name="lista-encadeada" />
+        <module name="experimento-2-queue" />
         <module name="lift" />
         <module name="fila-circular" />
         <module name="prime-number" />
@@ -23,6 +24,7 @@
       <module name="algoritmo-simples-string" target="11" />
       <module name="bubblesort" target="11" />
       <module name="experimento-1-bubblesort" target="11" />
+      <module name="experimento-2-queue" target="11" />
       <module name="fila" target="11" />
       <module name="fila-circular" target="11" />
       <module name="lift" target="11" />

@@ -72,6 +72,7 @@
       <module>algoritmo-simples-string</module>
       <module>bubblesort</module>
       <module>experimento-1-bubblesort</module>
+      <module>experimento-2-queue</module>
       <module>fila</module>
       <module>fila-circular</module>
       <module>lift</module>
