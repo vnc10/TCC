@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ab2b36e-bce8-421f-ad43-422e19a3abf4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/experimento-1-bubblesort/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimento-1-bubblesort/bubblesort.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimento-1-bubblesort/experimento-1-bubblesort.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimento-1-bubblesort/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimento-1-bubblesort/src/main/java/tcc/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimento-1-bubblesort/src/test/java/tcc/BubbleSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bubblesort/src/main/java/tcc/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/bubblesort/src/main/java/tcc/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bubblesort/src/test/java/tcc/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bubblesort/src/test/java/tcc/BubbleSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fila/src/main/java/tcc/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/fila/src/main/java/tcc/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fila/src/test/java/tcc/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/fila/src/test/java/tcc/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +52,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CodeDefenders/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/experimento-1-bubblesort" />
+      <recent name="$PROJECT_DIR$/bubblesort" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Algoritmo Simples de String/src" />
       <recent name="$PROJECT_DIR$/Algoritmo Simples" />
@@ -66,7 +81,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QueueTest">
+  <component name="RunManager" selected="JUnit.BubbleSortTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -74,6 +89,53 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="experimento-1-bubblesort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tcc" />
+      <option name="MAIN_CLASS_NAME" value="tcc.BubbleSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSortTest.TestBubbleSort01021997" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="experimento-1-bubblesort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tcc" />
+      <option name="MAIN_CLASS_NAME" value="tcc.BubbleSortTest" />
+      <option name="METHOD_NAME" value="TestBubbleSort01021997" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSortTest.TestBubbleSort326_01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="experimento-1-bubblesort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tcc" />
+      <option name="MAIN_CLASS_NAME" value="tcc.BubbleSortTest" />
+      <option name="METHOD_NAME" value="TestBubbleSort326_01" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,15 +156,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiftTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lift" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LiftTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fila" />
       <extension name="coverage">
@@ -118,45 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fila" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tcc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tcc" />
-      <option name="MAIN_CLASS_NAME" value="tcc.QueueTest" />
-      <option name="METHOD_NAME" value="testRemove" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest.testVerifyQueueIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fila" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tcc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tcc" />
-      <option name="MAIN_CLASS_NAME" value="tcc.QueueTest" />
-      <option name="METHOD_NAME" value="testVerifyQueueIsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BubbleSortTest" />
+        <item itemvalue="JUnit.BubbleSortTest.TestBubbleSort01021997" />
+        <item itemvalue="JUnit.BubbleSortTest.TestBubbleSort326_01" />
         <item itemvalue="JUnit.QueueTest" />
         <item itemvalue="JUnit.BubbleSortTest.testVectorSort" />
-        <item itemvalue="JUnit.QueueTest.testRemove" />
-        <item itemvalue="JUnit.QueueTest.testVerifyQueueIsEmpty" />
-        <item itemvalue="JUnit.LiftTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +207,7 @@
       <workItem from="1630375224727" duration="111000" />
       <workItem from="1630377311625" duration="18000" />
       <workItem from="1630419732141" duration="48000" />
+      <workItem from="1632684387633" duration="1634000" />
     </task>
     <servers />
   </component>
@@ -202,10 +224,9 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TCC$QueueTest_testIsEmpty.ic" NAME="QueueTest.testIsEmpty Coverage Results" MODIFIED="1626394076858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/TCC$QueueTest.ic" NAME="QueueTest Coverage Results" MODIFIED="1626394086181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TCC$QueueTest_testIsEmpty.ic" NAME="QueueTest.testIsEmpty Coverage Results" MODIFIED="1626394076858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

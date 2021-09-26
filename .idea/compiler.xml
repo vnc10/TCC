@@ -10,6 +10,7 @@
         <module name="lista-encadeada-cache" />
         <module name="lista-circular" />
         <module name="algoritmo-simples-string" />
+        <module name="experimento-1-bubblesort" />
         <module name="pilha" />
         <module name="fila" />
         <module name="lista-encadeada" />
@@ -21,6 +22,7 @@
     <bytecodeTargetLevel>
       <module name="algoritmo-simples-string" target="11" />
       <module name="bubblesort" target="11" />
+      <module name="experimento-1-bubblesort" target="11" />
       <module name="fila" target="11" />
       <module name="fila-circular" target="11" />
       <module name="lift" target="11" />
