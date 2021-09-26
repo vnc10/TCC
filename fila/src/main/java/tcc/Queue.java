@@ -1,22 +1,22 @@
 package tcc;
 
-public class Queue<T> {
+public class Queue {
     Node font = null;
     Node back = null;
 
-    private class Node {
-        T item;
+    private static class Node {
+        int item;
         Node next;
     }
 
     /**
      * Remove um elemento do fim da fila
      */
-    public T dequeue() {
+    public int dequeue() {
         if (isEmpty()) {
-            return null;
+            return 0;
         }
-        T item = font.item;
+        int item = font.item;
         if (font == back) {
             back = back.next;
         }
@@ -27,7 +27,7 @@ public class Queue<T> {
     /**
      * Inseri um elemento no começo da fila
      */
-    public void enqueue(T item) {
+    public void enqueue(int item) {
         Node oldback = back;
         back = new Node();
         back.item = item;
@@ -41,9 +41,9 @@ public class Queue<T> {
     /**
      * Retorna o primeiro elemento da fila
      */
-    public T head() {
+    public int head() {
         if (isEmpty()) {
-            return null;
+            return 0;
         }
         return font.item;
     }

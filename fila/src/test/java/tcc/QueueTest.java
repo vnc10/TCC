@@ -7,49 +7,37 @@ import static junit.framework.TestCase.*;
 public class QueueTest {
     @Test(timeout = 4000)
     public void testVerifyQueueIsEmpty() throws Throwable {
-        Queue<String> queue = new Queue<String>();
+        Queue queue = new Queue();
         assertTrue(queue.isEmpty());
     }
 
     @Test(timeout = 4000)
     public void testVerifyQueueIsNotEmpty() throws Throwable {
-        Queue<Integer> queue = new Queue<Integer>();
+        Queue queue = new Queue();
         queue.enqueue(2);
         assertFalse(queue.isEmpty());
     }
 
     @Test(timeout = 4000)
     public void testRemove() throws Throwable {
-        Queue<Integer> queue = new Queue<Integer>();
+        Queue queue = new Queue();
         queue.enqueue(1);
-        assertEquals(Integer.valueOf(1), queue.dequeue());
+        assertEquals(1, queue.dequeue());
     }
 
     @Test(timeout = 4000)
     public void testAdd() throws Throwable {
-        Queue<Integer> queue = new Queue<Integer>();
+        Queue queue = new Queue();
         queue.enqueue(10);
         queue.enqueue(12);
-        assertEquals(Integer.valueOf(10), queue.head());
-    }
-
-    @Test(timeout = 4000)
-    public void testDequeueEmpty() {
-        Queue<Integer> queue = new Queue<Integer>();
-        assertNull(queue.dequeue());
-    }
-
-    @Test(timeout = 4000)
-    public void testIsEmpty() {
-        Queue<Integer> queue = new Queue<Integer>();
-        assertNull(queue.head());
+        assertEquals(10, queue.head());
     }
 
     @Test(timeout = 4000)
     public void testDequeue() {
-        Queue<Integer> queue = new Queue<Integer>();
+        Queue queue = new Queue();
         queue.enqueue(3);
         queue.enqueue(5);
-        assertEquals(Integer.valueOf(3), queue.dequeue());
+        assertEquals(3, queue.dequeue());
     }
 }

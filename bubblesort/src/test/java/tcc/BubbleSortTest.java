@@ -11,9 +11,10 @@ public class BubbleSortTest {
         int[] ordenado = {2, 3, 5, 35, 45, 60, 320};
         BubbleSort bubble = new BubbleSort(array);
         bubble.ordena();
-        for (int i = 0; i < array.length; i++) {
-            assertEquals(ordenado[i], array[i]);
-        }
+        assertArrayEquals(bubble.ordena(), ordenado);
+//        for (int i = 0; i < array.length; i++) {
+//            assertEquals(ordenado[i], array[i]);
+//        }
     }
 
     @Test(timeout = 4000)

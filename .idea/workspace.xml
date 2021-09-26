@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ab2b36e-bce8-421f-ad43-422e19a3abf4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubblesort/src/main/java/tcc/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/bubblesort/src/main/java/tcc/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubblesort/src/test/java/tcc/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bubblesort/src/test/java/tcc/BubbleSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila/src/main/java/tcc/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/fila/src/main/java/tcc/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila/src/test/java/tcc/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/fila/src/test/java/tcc/QueueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CodeDefenders/pom.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -62,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LiftTest">
+  <component name="RunManager" selected="JUnit.QueueTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -74,24 +78,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AbstractListTest$BulkTestSubList and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista-encadeada-cache" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AbstractListTest" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="AbstractListTest$BulkTestSubList" />
-        <pattern testClass="NodeCachingLinkedListTest" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AbstractListTest$BulkTestSubList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista-encadeada-cache" />
-      <option name="PACKAGE_NAME" value="AbstractListTest" />
-      <option name="MAIN_CLASS_NAME" value="AbstractListTest$BulkTestSubList" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="BubbleSortTest.testVectorSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bubblesort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tcc" />
+      <option name="MAIN_CLASS_NAME" value="tcc.BubbleSortTest" />
+      <option name="METHOD_NAME" value="testVectorSort" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,32 +103,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.teste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista-encadeada" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LinkedListTest" />
-      <option name="METHOD_NAME" value="teste" />
+    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fila" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tcc" />
+      <option name="MAIN_CLASS_NAME" value="tcc.QueueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fila" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tcc" />
+      <option name="MAIN_CLASS_NAME" value="tcc.QueueTest" />
+      <option name="METHOD_NAME" value="testRemove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeCachingLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista-encadeada-cache" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NodeCachingLinkedListTest" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="QueueTest.testVerifyQueueIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fila" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tcc" />
+      <option name="MAIN_CLASS_NAME" value="tcc.QueueTest" />
+      <option name="METHOD_NAME" value="testVerifyQueueIsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QueueTest" />
+        <item itemvalue="JUnit.BubbleSortTest.testVectorSort" />
+        <item itemvalue="JUnit.QueueTest.testRemove" />
+        <item itemvalue="JUnit.QueueTest.testVerifyQueueIsEmpty" />
         <item itemvalue="JUnit.LiftTest" />
-        <item itemvalue="JUnit.NodeCachingLinkedListTest" />
-        <item itemvalue="JUnit.NodeCachingLinkedListTest" />
-        <item itemvalue="JUnit.AbstractListTest$BulkTestSubList and 1 more" />
-        <item itemvalue="JUnit.AbstractListTest$BulkTestSubList" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +175,17 @@
       <workItem from="1629294827587" duration="207000" />
       <workItem from="1629305085687" duration="25000" />
       <workItem from="1629501461142" duration="3071000" />
+      <workItem from="1629567352282" duration="66000" />
+      <workItem from="1629856889866" duration="275000" />
+      <workItem from="1629857323147" duration="670000" />
+      <workItem from="1629933560895" duration="836000" />
+      <workItem from="1629994617070" duration="23000" />
+      <workItem from="1630012286259" duration="3348000" />
+      <workItem from="1630071978156" duration="47000" />
+      <workItem from="1630371545594" duration="1186000" />
+      <workItem from="1630375224727" duration="111000" />
+      <workItem from="1630377311625" duration="18000" />
+      <workItem from="1630419732141" duration="48000" />
     </task>
     <servers />
   </component>

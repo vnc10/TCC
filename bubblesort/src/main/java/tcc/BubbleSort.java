@@ -4,11 +4,11 @@ public class BubbleSort {
 
     private int arr[];
 
-    public BubbleSort(int array[]) {
+    public BubbleSort(int[] array) {
         arr = array;
     }
 
-    public void ordena() {
+    public int[] ordena() {
         int n = this.arr.length;
         int temp = 0;
         for (int i = 0; i < n; i++) {
@@ -21,5 +21,6 @@ public class BubbleSort {
 
             }
         }
+        return arr;
     }
 }
