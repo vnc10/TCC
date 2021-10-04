@@ -6,19 +6,6 @@ import static org.junit.Assert.assertArrayEquals;
 
 //BUBBLESORT TEST = 106, 108, 111, 122
 public class BubbleSortTest {
-    @Test(timeout = 4000)
-    public void TestBubbleSort326() throws Throwable {
-
-        int[] valores = {43, 76, 22, 41, 9, 14, 2};
-        int[] esperado = {2, 9, 14, 22, 41, 43, 76};
-
-        BubbleSort bubble = new BubbleSort(valores);
-
-        bubble.Ordena();
-
-        assertArrayEquals(esperado, valores);
-
-    }
 
     @Test(timeout = 4000)
     public void TestBubbleSort01021997_01() throws Throwable {
