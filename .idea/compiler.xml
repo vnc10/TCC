@@ -10,11 +10,9 @@
         <module name="lista-encadeada-cache" />
         <module name="lista-circular" />
         <module name="algoritmo-simples-string" />
-        <module name="experimento-1-bubblesort" />
         <module name="pilha" />
         <module name="fila" />
         <module name="lista-encadeada" />
-        <module name="experimento-2-queue" />
         <module name="lift" />
         <module name="fila-circular" />
         <module name="prime-number" />

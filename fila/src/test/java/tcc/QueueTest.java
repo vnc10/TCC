@@ -40,4 +40,16 @@ public class QueueTest {
         queue.enqueue(5);
         assertEquals(3, queue.dequeue());
     }
+
+    @Test(timeout = 4000)
+    public void testDequeueIfIsEmpty() {
+        Queue queue = new Queue();
+        assertEquals(0, queue.dequeue());
+    }
+
+    @Test(timeout = 4000)
+    public void testIfHeadIsEmpty() {
+        Queue queue = new Queue();
+        assertEquals(0, queue.head());
+    }
 }
