@@ -22,6 +22,7 @@ import tcc.BulkTest;
 
 import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.NoSuchElementException;
 
 
 /**
@@ -152,4 +153,36 @@ public class NodeCachingLinkedListTest<E> extends AbstractLinkedListTest<E> {
     public NodeCachingLinkedList<E> getCollection() {
         return (NodeCachingLinkedList<E>) super.getCollection();
     }
+
+	public void testGetFirstFromEmptyList() {
+		NodeCachingLinkedList<Object> list = new NodeCachingLinkedList<>();
+		try {
+			list.getFirst();
+			fail();
+		} catch (NoSuchElementException e) {}
+	}
+
+	public void testGetLastFromEmptyList() {
+		NodeCachingLinkedList<Object> list = new NodeCachingLinkedList<>();
+		try {
+			list.getLast();
+			fail();
+		} catch (NoSuchElementException e) {}
+	}
+
+	public void testRemoveFirstFromEmptyList() {
+		NodeCachingLinkedList<Object> list = new NodeCachingLinkedList<>();
+		try {
+			list.removeFirst();
+			fail();
+		} catch (NoSuchElementException e) {}
+	}
+
+	public void testRemoveLastFromEmptyList() {
+		NodeCachingLinkedList<Object> list = new NodeCachingLinkedList<>();
+		try {
+			list.removeLast();
+			fail();
+		} catch (NoSuchElementException e) {}
+	}
 }
