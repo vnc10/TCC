@@ -22,6 +22,7 @@ import tcc.BulkTest;
 
 import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.NoSuchElementException;
 
 
 /**
@@ -58,6 +59,7 @@ public class NodeCachingLinkedListTest<E> extends AbstractLinkedListTest<E> {
         list.addAll(Arrays.asList((E[]) new String[]{"1", "2", "3", "4"}));
         list.removeAllNodes(); // Will dump all 4 elements into cache
         list.setMaximumCacheSize(2); // shrink cache
+		assertEquals(2, list.getMaximumCacheSize());
         list.addAll(Arrays.asList((E[]) new String[]{"1", "2", "3", "4"}));
         checkNodes();
         list.removeNode(list.getNode(0, false)); // no room in cache
@@ -152,4 +154,42 @@ public class NodeCachingLinkedListTest<E> extends AbstractLinkedListTest<E> {
     public NodeCachingLinkedList<E> getCollection() {
         return (NodeCachingLinkedList<E>) super.getCollection();
     }
+
+	public void testCreateFromExistingList() {
+		LinkedList<Object> list = new LinkedList<>();
+		NodeCachingLinkedList<Object> nclist = new NodeCachingLinkedList<>(list);
+		assertEquals(list, nclist);
+	}
+
+	public void testGetFirstFromEmptyList() {
+		NodeCachingLinkedList<Object> list = new NodeCachingLinkedList<>();
+		try {
+			list.getFirst();
+			fail();
+		} catch (NoSuchElementException e) {}
+	}
+
+	public void testGetLastFromEmptyList() {
+		NodeCachingLinkedList<Object> list = new NodeCachingLinkedList<>();
+		try {
+			list.getLast();
+			fail();
+		} catch (NoSuchElementException e) {}
+	}
+
+	public void testRemoveFirstFromEmptyList() {
+		NodeCachingLinkedList<Object> list = new NodeCachingLinkedList<>();
+		try {
+			list.removeFirst();
+			fail();
+		} catch (NoSuchElementException e) {}
+	}
+
+	public void testRemoveLastFromEmptyList() {
+		NodeCachingLinkedList<Object> list = new NodeCachingLinkedList<>();
+		try {
+			list.removeLast();
+			fail();
+		} catch (NoSuchElementException e) {}
+	}
 }
