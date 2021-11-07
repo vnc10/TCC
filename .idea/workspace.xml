@@ -5,172 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ab2b36e-bce8-421f-ad43-422e19a3abf4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000001/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000002/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000003/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000004/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000005/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000006/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000007/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000008/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000009/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000010/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000011/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000012/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000013/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000014/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000015/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000016/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000017/TestBubbleSort01021997.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000017/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000017/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000018/TestBubbleSort01021997.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000018/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000018/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000019/TestBubbleSort01021997.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000019/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000019/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000020/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000021/TestBubbleSort01021997.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000021/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000021/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort01021997/00000022/TestBubbleSort01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort14/00000001/TestBubbleSort14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort14/00000002/TestBubbleSort14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort14/00000002/TestBubbleSort14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort14/00000002/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort14/00000003/TestBubbleSort14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort14/00000004/TestBubbleSort14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort14/00000005/TestBubbleSort14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort14/00000005/TestBubbleSort14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort14/00000005/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort14/00000006/TestBubbleSort14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort14/00000006/TestBubbleSort14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort14/00000006/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort14/00000007/TestBubbleSort14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort14/00000007/TestBubbleSort14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort14/00000007/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort14/00000008/TestBubbleSort14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort14/00000008/TestBubbleSort14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort14/00000008/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort197/00000001/TestBubbleSort197.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort197/00000002/TestBubbleSort197.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort197/00000002/TestBubbleSort197.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort197/00000002/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort325/00000001/TestBubbleSort325.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort325/00000002/TestBubbleSort325.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort326/00000001/TestBubbleSort326.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort326/00000002/TestBubbleSort326.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort326/00000003/TestBubbleSort326.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort326/00000004/TestBubbleSort326.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort326/00000005/TestBubbleSort326.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort326/00000006/TestBubbleSort326.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort326/00000007/TestBubbleSort326.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort-por-aluno/TestBubbleSort326/00000008/TestBubbleSort326.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort/bubblesort.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort/experimento-1-bubblesort.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort/src/main/java/tcc/BubbleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-1-bubblesort/src/test/java/tcc/BubbleSortTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue01021997/00000001/TestQueue01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue01021997/00000002/TestQueue01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue01021997/00000003/TestQueue01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue01021997/00000004/TestQueue01021997.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue01021997/00000004/TestQueue01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue01021997/00000004/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue01021997/00000005/TestQueue01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue01021997/00000006/TestQueue01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue01021997/00000007/TestQueue01021997.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue01021997/00000007/TestQueue01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue01021997/00000007/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue01021997/00000008/TestQueue01021997.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue01021997/00000008/TestQueue01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue01021997/00000008/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue01021997/00000009/TestQueue01021997.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue01021997/00000009/TestQueue01021997.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue01021997/00000009/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 1/00000001/TestQueue14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 1/00000002/TestQueue14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 1/00000003/TestQueue14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000001/TestQueue14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000001/TestQueue14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000001/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000002/TestQueue14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000002/TestQueue14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000002/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000003/TestQueue14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000003/TestQueue14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000003/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000004/TestQueue14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000004/TestQueue14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000004/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000005/TestQueue14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000005/TestQueue14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000005/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000006/TestQueue14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000006/TestQueue14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000006/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000007/TestQueue14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000007/TestQueue14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000007/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000008/TestQueue14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000009/TestQueue14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000009/TestQueue14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000009/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000010/TestQueue14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000010/TestQueue14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue14/Aluno 2/00000010/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000001/TestQueue197.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000001/TestQueue197.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000001/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000002/TestQueue197.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000002/TestQueue197.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000002/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000003/TestQueue197.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000003/TestQueue197.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000003/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000004/TestQueue197.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000004/TestQueue197.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000004/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000005/TestQueue197.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000005/TestQueue197.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000005/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000006/TestQueue197.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000006/TestQueue197.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000006/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000007/TestQueue197.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000007/TestQueue197.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000007/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000008/TestQueue197.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000008/TestQueue197.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 1/00000008/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 2/00000001/TestQueue197.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 2/00000002/TestQueue197.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 2/00000003/TestQueue197.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 2/00000003/TestQueue197.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue197/Aluno 2/00000003/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue517/00000001/TestQueue517.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue517/00000002/TestQueue517.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue517/00000003/TestQueue517.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue517/00000004/TestQueue517.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue517/00000005/TestQueue517.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue517/00000006/TestQueue517.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue517/00000006/TestQueue517.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue-por-aluno/TestQueue517/00000006/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue/experimento-2-queue.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue/fila.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue/src/main/java/tcc/Queue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimento-2-queue/src/test/java/tcc/QueueTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fila/src/test/java/tcc/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/fila/src/test/java/tcc/QueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila-circular/src/main/java/tcc/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/fila-circular/src/main/java/tcc/CircularQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila-circular/src/test/java/tcc/CircularQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/fila-circular/src/test/java/tcc/CircularQueueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +48,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/lista-encadeada-cache/src/test/java/tcc" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ResultadosTCC/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../freight-consumer-correios" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -240,7 +77,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QueueTest">
+  <component name="RunManager" selected="JUnit.CircularQueueTest.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -252,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="experimento-2-queue" />
+    <configuration name="CircularQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fila-circular" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tcc.*" />
@@ -261,8 +98,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tcc" />
-      <option name="MAIN_CLASS_NAME" value="tcc.QueueTest" />
+      <option name="MAIN_CLASS_NAME" value="tcc.CircularQueueTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircularQueueTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fila-circular" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tcc" />
+      <option name="MAIN_CLASS_NAME" value="tcc.CircularQueueTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircularQueueTest.testAddElementWhenQueueIsNotEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fila-circular" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tcc" />
+      <option name="MAIN_CLASS_NAME" value="tcc.CircularQueueTest" />
+      <option name="METHOD_NAME" value="testAddElementWhenQueueIsNotEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircularQueueTest.testRemoveElementa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fila-circular" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tcc" />
+      <option name="MAIN_CLASS_NAME" value="tcc.CircularQueueTest" />
+      <option name="METHOD_NAME" value="testRemoveElementa" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -282,61 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.TestQueue14_07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="experimento-2-queue" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tcc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tcc" />
-      <option name="MAIN_CLASS_NAME" value="tcc.QueueTest" />
-      <option name="METHOD_NAME" value="TestQueue14_07" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest.testDequeueIfIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fila" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tcc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tcc" />
-      <option name="MAIN_CLASS_NAME" value="tcc.QueueTest" />
-      <option name="METHOD_NAME" value="testDequeueIfIsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest.testIfHeadIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fila" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tcc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tcc" />
-      <option name="MAIN_CLASS_NAME" value="tcc.QueueTest" />
-      <option name="METHOD_NAME" value="testIfHeadIsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CircularQueueTest.test" />
+        <item itemvalue="JUnit.CircularQueueTest.testRemoveElementa" />
+        <item itemvalue="JUnit.CircularQueueTest" />
+        <item itemvalue="JUnit.CircularQueueTest.testAddElementWhenQueueIsNotEmpty" />
         <item itemvalue="JUnit.QueueTest" />
-        <item itemvalue="JUnit.QueueTest.testIfHeadIsEmpty" />
-        <item itemvalue="JUnit.QueueTest.testDequeueIfIsEmpty" />
-        <item itemvalue="JUnit.QueueTest (1)" />
-        <item itemvalue="JUnit.QueueTest.TestQueue14_07" />
       </list>
     </recent_temporary>
   </component>
@@ -375,6 +212,10 @@
       <workItem from="1633564174533" duration="15000" />
       <workItem from="1633564225394" duration="1185000" />
       <workItem from="1633636937430" duration="676000" />
+      <workItem from="1634608248524" duration="2121000" />
+      <workItem from="1635336842160" duration="23000" />
+      <workItem from="1635346174461" duration="88000" />
+      <workItem from="1636303959590" duration="2242000" />
     </task>
     <servers />
   </component>

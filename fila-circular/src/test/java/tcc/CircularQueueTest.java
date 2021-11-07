@@ -59,4 +59,40 @@ public class CircularQueueTest {
         assertEquals(3, queue.deQueue());
     }
 
+    @Test(timeout = 4000)
+    public void testAddElementWhenQueueIsNotEmptyAndHadAtLeastOneElement() throws Throwable {
+        CircularQueue queue = new CircularQueue(2);
+        queue.enQueue(3);
+        queue.enQueue(4);
+        queue.enQueue(10);
+        assertEquals(10, queue.get(2));
+    }
+
+    @Test(timeout = 4000)
+    public void testAddOneElementAndRemoveOneElementAfterVerifyIsEmpty() throws Throwable {
+        CircularQueue queue = new CircularQueue(3);
+        queue.enQueue(3);
+        queue.deQueue();
+        assertTrue(queue.isEmpty());
+    }
+
+    @Test(timeout = 4000)
+    public void testIsFullWithAddAndRemoveElements() throws Throwable {
+        CircularQueue queue = new CircularQueue(2);
+        queue.enQueue(3);
+        queue.enQueue(4);
+        queue.deQueue();
+        assertFalse(queue.isFull());
+    }
+
+    @Test(timeout = 4000)
+    public void test() throws Throwable {
+        CircularQueue queue = new CircularQueue(3);
+        queue.enQueue(3);
+        queue.enQueue(4);
+        queue.enQueue(6);
+        queue.deQueue();
+        assertEquals(4, queue.deQueue());
+    }
+
 }
