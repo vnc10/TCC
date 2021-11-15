@@ -13,14 +13,14 @@ public class QueueTest {
 
 
     @Test(timeout = 4000)
-    public void testRemove() throws Throwable {
+    public void testVerifyDequeueWithOneElement() throws Throwable {
         Queue queue = new Queue();
         queue.enqueue(1);
         assertEquals(1, queue.dequeue());
     }
 
     @Test(timeout = 4000)
-    public void testAdd() throws Throwable {
+    public void testEnqueue() throws Throwable {
         Queue queue = new Queue();
         queue.enqueue(10);
         queue.enqueue(12);
@@ -28,7 +28,7 @@ public class QueueTest {
     }
 
     @Test(timeout = 4000)
-    public void testDequeue() {
+    public void testVerifyDequeueWithMoreThanOneElement() {
         Queue queue = new Queue();
         queue.enqueue(3);
         queue.enqueue(5);
