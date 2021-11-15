@@ -1,6 +1,6 @@
 package tcc;
 
-public class Queue<T> {
+public class Queue {
     private Node font = null;
     private Node back = null;
 

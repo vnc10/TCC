@@ -11,12 +11,6 @@ public class QueueTest {
         assertTrue(queue.isEmpty());
     }
 
-    @Test(timeout = 4000)
-    public void testVerifyQueueIsNotEmpty() throws Throwable {
-        Queue queue = new Queue();
-        queue.enqueue(2);
-        assertFalse(queue.isEmpty());
-    }
 
     @Test(timeout = 4000)
     public void testRemove() throws Throwable {
